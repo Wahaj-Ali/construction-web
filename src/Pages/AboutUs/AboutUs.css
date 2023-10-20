@@ -11,13 +11,15 @@
     line-height: 26px;
     text-transform: uppercase;
     margin-bottom: 0;
+    border-bottom: 1px dotted;
+    width: fit-content;
 }
 
-.underline {
+/* .underline {
     margin: 0;
     border-bottom: 1px dotted black;
     width: 5%;
-}
+} */
 
 .aboutSecText {
     font-weight: 500;
