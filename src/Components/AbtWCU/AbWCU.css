@@ -1,0 +1,138 @@
+.whyChooseUs {
+    height: 100dvh;
+    /* background-color: #5d5b9f; */
+    /* background-color: #2e343c; */
+    padding: 20px 120px;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+  }
+  
+  .whyUsTitle {
+    align-self: center;
+  }
+  
+  .whyUsTitle h2 {
+    /* font-size: 40px; */
+    margin: 0;
+    color: #5d5b9f;
+    font-family: 'Teko';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 42px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted;
+  }
+
+  .wcuList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Create three equally spaced columns */
+    grid-gap: 20px;
+    /* Adjust gap between grid items */
+    justify-content: center;
+  }
+  
+  .wcuListItem {
+    /* width: calc(26% - 20px); */
+    background-color: #5d5b9f;
+    /* height: 225px; */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    /* justify-content: space-between; */
+  }
+  
+  /* .wcuListItem:hover {
+    transform: perspective(500px) rotateX(5deg);
+  } */
+  
+  .wcuListItem h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+    height: 45px;
+  }
+  
+  .wcuListItem p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .icon {
+    align-self: center;
+    /* background-color: bisque; */
+    border-radius: 50%;
+    background-color: #DDD4BC;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .whyChooseUs {
+      height: auto;
+      padding: 20px 80px;
+    }
+  
+    .wcuList {
+      margin-bottom: 10px;
+    }
+  
+    .wcuListItem h4 {
+      font-size: 18px;
+    }
+  
+    .wcuListItem p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    /* .whyChooseUs {
+      padding: 0 100px;
+    } */
+  
+    .wcuList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .whyUsTitle h2 {
+      text-align: center;
+    }
+  
+    .wcuListItem h4 {
+      font-size: 16px;
+      height: fit-content;
+    }
+  }
+  
+  
+  @media (max-width: 430px) {
+    .wcuList {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .whyChooseUs {
+      padding: 20px 20px;
+    }
+  
+    .wcuListItem h4 {
+      font-size: 14px;
+      height: fit-content;
+    }
+  
+    .wcuListItem p {
+      font-size: 12px;
+    }
+  }
