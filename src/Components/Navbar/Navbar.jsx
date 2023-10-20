@@ -25,21 +25,10 @@ export const Navbar = () => {
   }, []);
 
   const navLinks = [
-    // { url: '/', name: 'Home' },
-    
     {
-      name: 'Insurance Services',
-      url: '/insurance_services',
-      submenu: [
-        { url: '/insurance_services/auto', name: 'Auto Insurance' },
-        { url: '/insurance_services/home', name: 'Home Insurance' },
-        { url: '/insurance_services/medical', name: 'Medical Insurance' },
-        { url: '/insurance_services/business', name: 'Business Insurance' },
-        // Add more submenu items as needed
-      ],
+      name: 'About Us', url: '/about_us',
     },
-    { url: '/insurance_carriers', name: 'Insurance Carriers' },
-    { url: '/contact_us', name: 'Contact Us' },
+    { url: '/services', name: 'Services' },
     { url: '/FAQs', name: 'FAQs' },
     // { url: '/blogs', name: 'Blogs' },
   ].filter(Boolean);

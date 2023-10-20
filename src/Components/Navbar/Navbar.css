@@ -45,8 +45,10 @@
   text-decoration: none;
   /* color: #354256; */
   color: #000;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font: normal 500 21px / 25px "Teko", Helvetica, Arial, Verdana, sans-serif;
   transition: all 0.3s ease-out;
+  text-transform: uppercase;
 }
 
 .nav-item a:hover {
