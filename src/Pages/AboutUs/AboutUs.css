@@ -28,3 +28,24 @@
     line-height: 27px;
     font-family: 'Poppins', sans-serif;
 }
+
+.joinUs {
+    background-color: rgba(93,91,159,0.9);
+    height: 20vh;
+}
+
+.joinUs img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.joinUs p {
+    position: relative;
+    padding: 50px 100px;
+    line-height: 27px;
+    color: #fff;
+    font-size: 24px;
+}
