@@ -73,9 +73,15 @@
     gap: 15px;
 }
 
+@media (max-width: 786px) {
+    .footerUp, .footerDown {
+        padding: 20px 50px;
+    }
+}
+
 @media (max-width: 430px) {
     .footerUp {
-        padding: 30px 20px;
+        padding: 10px 20px;
         flex-direction: column;
     }
 
