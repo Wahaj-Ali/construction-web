@@ -30,7 +30,8 @@
 }
 
 .joinUs {
-    background-color: rgba(93,91,159,0.9);
+    /* background-color: rgba(93,91,159,0.9); */
+    background-color: #88BDBC;
     height: 22vh;
 }
 
