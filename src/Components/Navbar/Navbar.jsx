@@ -28,6 +28,9 @@ export const Navbar = () => {
     {
       name: 'About Us', url: '/about_us',
     },
+    {
+      name: 'Contact Us', url: '/contact_us',
+    },
     { url: '/services', name: 'Services' },
     { url: '/FAQs', name: 'FAQs' },
     // { url: '/blogs', name: 'Blogs' },
