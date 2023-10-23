@@ -1,0 +1,74 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footerUp {
+    display: flex;
+    padding: 30px 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fLink {
+    color: #88BDBC;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fLink:hover {
+    color: #fff;
+}
+
+.fContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fContacts p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.fsLink {
+    color: #88BDBC;
+    font-size: 24px;
+    display: flex;
+}
+
+.fsLink :hover {
+    color: #fff;
+}
+
+.smIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.footerDown {
+    border-top: 1px solid;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacyLinks {
+    display: flex;
+    gap: 15px;
+}

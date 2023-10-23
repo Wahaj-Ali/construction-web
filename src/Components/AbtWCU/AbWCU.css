@@ -37,7 +37,7 @@
   
   .wcuListItem {
     /* width: calc(26% - 20px); */
-    background-color: #5d5b9f;
+    background-color: #88BDBC;
     /* height: 225px; */
     color: #fff;
     padding: 10px;
@@ -64,6 +64,7 @@
   .wcuListItem p {
     font-size: 16px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
   }
   
   .icon {

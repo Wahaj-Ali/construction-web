@@ -1,0 +1,103 @@
+.formSec {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-around;
+}
+
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+}
+
+.cDetail {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cIcon {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color:antiquewhite ;
+}
+
+.cuIcon {
+    align-self: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+
+.ciText h3, .ciText p{
+    margin: 0;
+}
+
+.form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 4px 0px 10px -2px rgba(33, 40, 51, 0.6),
+               -4px 0px 10px -2px rgba(33, 40, 51, 0.6);
+    
+    background-color: #88BDBC;
+    border-radius: 10px;
+  }
+  
+  .formDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .formDesc h3 {
+    margin: 0;
+  }
+  
+  .formDesc h4 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .cFContent {
+    padding: 10px;
+    border: none;
+    background-color: aliceblue;
+    width: 90%;
+    font-size: 1rem;
+  }
+  
+  .red {
+    display: contents;
+    color: red;
+  }
+  
+  .contactBtn {
+    background-color: #fff;
+    color: #0f4d92;
+    font-weight: 600;
+  }
+  
+  .contactFormLabel {
+    border: none;
+    display: flex;
+    width: 92%;
+    color: #fff;
+    font-weight: 600;
+  }
