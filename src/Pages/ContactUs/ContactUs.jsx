@@ -54,7 +54,7 @@ const ContactUs = () => {
                     <label htmlFor="" className='contactFormLabel'>Email<span className='red'> *</span></label>
                     <input className='cFContent' name="email" type="email" placeholder='Enter your email' required />
                     <label htmlFor="" className='contactFormLabel'>Message</label>
-                    <textarea className='cFContent' name="message" id="" cols="30" rows="10" placeholder='Your message...' required></textarea>
+                    <textarea className='cFContent' name="message" id="" cols="30" rows="5" placeholder='Your message...' required></textarea>
                     <button className='quote-btn contactBtn' type='submit'>Submit</button>
                 </form>
             </div>
