@@ -15,6 +15,7 @@
     justify-content: flex-start;
     gap: 25px;
     align-items: center;
+    margin: 10px 0;
 }
 
 .cIcon {
@@ -32,6 +33,10 @@
     width: 40px;
     height: 40px;
     align-items: center;
+}
+
+.ciText h3, .ciText p{
+    margin: 0;
 }
 
 .form {
