@@ -6,7 +6,6 @@ import './Navbar.css';
 
 export const Navbar = () => {
 
-  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
 
@@ -45,10 +44,6 @@ export const Navbar = () => {
       document.body.classList.remove('mobile-menu-active');
     }
   };
-
-  // const closeMobileMenu = () => {
-  //   setIsMobileMenuOpen(false);
-  // };
 
   return (
     <nav className="navbar">
