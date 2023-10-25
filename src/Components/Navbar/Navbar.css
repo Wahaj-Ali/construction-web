@@ -97,6 +97,23 @@
   display: none;
 }
 
+.quote-btn {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #17252a;
+  color: #def2f1;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all ease-in-out 0.6s;
+}
+
+.quote-btn:hover {
+  background-color: #def2f1;
+  color: #17252a;
+}
+
 @media (max-width: 1024px) {
   .nav-item a {
     font-size: 1rem;
