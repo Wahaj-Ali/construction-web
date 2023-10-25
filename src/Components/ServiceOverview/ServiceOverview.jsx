@@ -10,7 +10,7 @@ const ServiceOverview = ({ sImg, sName, sDesc, sLink }) => {
                 <img src={sImg} alt={sName} />
             </div>
             <div className="sHead">
-                <h3>{sName}</h3>
+            <Link to={`services/${sLink}`} className='link' id='nameLink'><h3>{sName}</h3></ Link>
             </div>
 
             <div className="sDesc">
