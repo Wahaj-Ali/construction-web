@@ -12,6 +12,7 @@ const Footer = () => {
             <div className="footerUp">
                 <div className="footerColumn socialMedia">
                     <h2>Fully Contructed</h2>
+                    <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses.</p>
                     <div className="smIcons">
                         <Link to="/" className='fsLink'><CiFacebook /></Link>
                         <Link to="/" className='fsLink'><CiTwitter /></Link>
@@ -29,8 +30,17 @@ const Footer = () => {
                     </div>
                 </div>
 
+                <div className="footerColumn">
+                    <h2>Business Hours</h2>
+
+                    <div className="hours">
+                        <p>Monday - Friday 8:00 Am - 6:00 PM</p>
+                        <p>Saturday - Sunday 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+
                 <div className="footerColumn fContactInfo">
-                    <h2>Contact Info</h2>
+                    <h2>Contact Us</h2>
                     <div className="fContacts">
                         <p><BiMap />Physical address</p>
                         <p><BiPhoneCall />Phone Number</p>

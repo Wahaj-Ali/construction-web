@@ -15,6 +15,32 @@
     flex-direction: column;
 }
 
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia h2 {
+    text-transform: uppercase;
+}
+
+.socialMedia p {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 230px;
+    text-align: justify;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hours p {
+    margin: 0;
+}
+
 .links {
     display: flex;
     flex-direction: column;
