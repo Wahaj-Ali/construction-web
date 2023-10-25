@@ -3,7 +3,7 @@ import {GrServices} from 'react-icons/gr';
 import {GrUserExpert} from 'react-icons/gr';
 import {MdHandshake} from 'react-icons/md';
 import {VscWorkspaceTrusted} from 'react-icons/vsc';
-import {FaUsersRays} from 'react-icons/fa6';
+import {FaUsersRays, FaHandHoldingHand} from 'react-icons/fa6';
 import './AbWCU.css';
 
 const AbWCU = () => {
@@ -53,18 +53,13 @@ const AbWCU = () => {
                     <p>Your satisfaction is our top priority. We go the extra mile to ensure you feel heard, supported, and valued throughout your construction and renovation journey.</p>
                 </div>
 
-                {/* {currentPage === "Home" && <div className="wcuListItem"
-                    variants={initialVaariantsTwo}
-                    initial="hidden"
-                    animate={mainControls}
-                    transition={{ delay: 0.3, duration: 1 }}
-                >
+                <div className="wcuListItem">
                     <div className="icon">
-                        <ListIcon style={{ fontSize: 45 }} />
+                        <FaHandHoldingHand style={{ fontSize: 30, color: '#000' }} />
                     </div>
-                    {currentPage === "Home" && <h4>Bundle Options</h4>}
-                    {currentPage === "Home" && <p>Consider bundling your auto insurance with other policies, such as home or medical insurance, to maximize savings and simplify your coverage management.</p>}
-                </div>} */}
+                    <h4>Unwavering Commitment</h4>
+                    <p>Our commitment to Long Island is unwavering. We understand that every project we undertake is a testament to the architectural diversity and vibrant lifestyle of this community. Your vision becomes our mission.</p>
+                </div>
             </div>
         </div>
     )

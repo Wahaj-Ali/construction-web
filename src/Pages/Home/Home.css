@@ -9,14 +9,23 @@
 }
 
 .homeHeading h2 {
-    font-weight: 700;
+    /* font-weight: 700;
     color: #2b7a78;
     font-size: 28px;
     line-height: 32px;
     text-transform: uppercase;
     margin-bottom: 0;
     padding-bottom: 5px;
-    border-bottom: 1px dotted;
+    border-bottom: 1px dotted; */
+
+    margin-bottom: 0;
+    color: #3aafa9;
+    font-family: 'Teko';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 42px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted;
 }
 
 .homeAbout p {

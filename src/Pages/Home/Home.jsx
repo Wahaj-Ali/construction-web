@@ -10,6 +10,7 @@ import interior from '../../Assets/Interior Painting.jpg';
 import floor from '../../Assets/Flooring Installation.jpg';
 import carpentry from '../../Assets/Carpentry and Trim Work.jpg';
 import './Home.css';
+import AbWCU from '../../Components/AbtWCU/AbWCU';
 
 const Home = () => {
     return (
@@ -52,6 +53,8 @@ const Home = () => {
 
                     <ServiceOverview sImg={carpentry} sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentary-and-trimwork"/>
                 </div>
+
+                <AbWCU />
 
             </div>
         </>
