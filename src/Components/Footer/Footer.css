@@ -1,5 +1,5 @@
 .footer {
-    background-color: #000;
+    background-color: #17252a;
     color: #fff;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .fLink {
-    color: #88BDBC;
+    color: #3aafa9;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@
 }
 
 .fsLink {
-    color: #88BDBC;
+    color: #3aafa9;
     font-size: 24px;
     display: flex;
 }

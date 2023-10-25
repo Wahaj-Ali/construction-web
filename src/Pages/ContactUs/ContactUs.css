@@ -22,7 +22,7 @@
     padding: 10px;
     border: 2px solid;
     border-radius: 50%;
-    background-color:antiquewhite ;
+    background-color:#def2f1; ;
 }
 
 .cuIcon {
@@ -47,7 +47,7 @@
     box-shadow: 4px 0px 10px -2px rgba(33, 40, 51, 0.6),
                -4px 0px 10px -2px rgba(33, 40, 51, 0.6);
     
-    background-color: #88BDBC;
+    background-color: #3aafa9;
     border-radius: 10px;
   }
   

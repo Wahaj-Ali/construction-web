@@ -11,7 +11,7 @@
     align-items: center;
     background-color: #8080801a;
     padding: 10px;
-    border-left: 5px solid grey;
+    border-left: 5px solid #2b7a78;
 }
 
 .fAns p {
@@ -22,9 +22,9 @@
 .fQues {
     display: flex;
     align-items: center;
-    background-color:rgb(238, 229, 221);
+    background-color: #def2f1;
     padding: 10px;
-    border-left: 5px solid red;
+    border-left: 5px solid #17252a;
 }
 
 #qIcon, #aIcon {
@@ -33,10 +33,9 @@
 }
 
 #qIcon {
-    color: red;
+    color: #17252a;
 }
 
 #aIcon {
-    color: grey;
-    
+    color: #2b7a78;
 }

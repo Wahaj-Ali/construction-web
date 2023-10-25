@@ -17,7 +17,7 @@
   .whyUsTitle h2 {
     /* font-size: 40px; */
     margin: 0;
-    color: #5d5b9f;
+    color: #3aafa9;
     font-family: 'Teko';
     font-weight: 600;
     font-size: 50px;
@@ -37,7 +37,7 @@
   
   .wcuListItem {
     /* width: calc(26% - 20px); */
-    background-color: #88BDBC;
+    background-color: #17252a;
     /* height: 225px; */
     color: #fff;
     padding: 10px;
