@@ -6,8 +6,10 @@
     background-color: #2b787a;
     color: #def2f1;
     box-shadow: 3px 5px 9px 0px #5bbcbec7;
-    /* display: flex;
-    flex-direction: column; */
+}
+
+#nameLink {
+    color: #fff;
 }
 
 .sImg {
