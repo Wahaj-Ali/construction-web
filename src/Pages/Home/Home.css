@@ -1,0 +1,47 @@
+.homeAbout {
+    padding: 0 100px;
+}
+
+.homeHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeHeading h2 {
+    font-weight: 700;
+    color: #2b7a78;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted;
+}
+
+.homeAbout p {
+    font-weight: 500;
+    color: #17252a;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hbLogos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.servicesOverview {
+    background-color: #def2f1;
+    padding: 20px 100px;
+    margin: 10px 0;
+}
+
+.hsSec {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
