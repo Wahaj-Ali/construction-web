@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="footerColumn">
+                <div className="footerColumn business">
                     <h2>Business Hours</h2>
 
                     <div className="hours">

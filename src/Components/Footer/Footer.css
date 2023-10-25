@@ -20,7 +20,7 @@
     flex-direction: column;
 }
 
-.socialMedia h2 {
+.socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
     text-transform: uppercase;
 }
 
