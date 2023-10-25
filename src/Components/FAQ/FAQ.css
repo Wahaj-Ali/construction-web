@@ -1,0 +1,42 @@
+.singleFAQ {
+    margin-bottom: 20px;
+}
+
+.singleFAQ h3, .singleFAQ p{
+    margin: 0;
+}
+
+.fAns {
+    display: flex;
+    align-items: center;
+    background-color: #8080801a;
+    padding: 10px;
+    border-left: 5px solid grey;
+}
+
+.fAns p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fQues {
+    display: flex;
+    align-items: center;
+    background-color:rgb(238, 229, 221);
+    padding: 10px;
+    border-left: 5px solid red;
+}
+
+#qIcon, #aIcon {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+#qIcon {
+    color: red;
+}
+
+#aIcon {
+    color: grey;
+    
+}
