@@ -7,15 +7,12 @@ import './ContactUs.css';
 const ContactUs = () => {
     return (
         <>
-            <div className='insuranceHero'>
-                <img src={contactBg} alt="Insurance Carriers" className='insuranceHeroImg' />
-                <div className="insuranceHeroDesc">
-                    <h1 className="ihTtitle">About Fully Constructed</h1>
-                    <h3>Get in touch.</h3>
-                </div>
+            <div className='contactHeading'>
+            <h1>Contact Us</h1>
             </div>
-
+            
             <div className="formSec">
+                
                 <div className="contactDetails">
                     <div className="cDetail">
                         <div className="cIcon">
