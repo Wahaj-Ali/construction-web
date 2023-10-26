@@ -22,6 +22,7 @@
 
 .socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
     text-transform: uppercase;
+    color: #3aafa9;
 }
 
 .socialMedia p {
@@ -74,7 +75,7 @@
 
 .fsLink {
     color: #3aafa9;
-    font-size: 24px;
+    font-size: 30px;
     display: flex;
 }
 
