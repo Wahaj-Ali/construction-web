@@ -17,7 +17,7 @@ const Services = () => {
                 <img src={servicesBg} alt="Insurance Carriers" className='insuranceHeroImg shImg' />
                 <div className="insuranceHeroDesc">
                     <h1 className="ihTtitle">Our Services</h1>
-                    {/* <h3>We are proud to be a trusted and prominent platform serving the construction and renovation community in New York. With a passion for bringing construction dreams to life, we've established ourselves as a reliable partner in the world of construction and renovation.</h3> */}
+                    <h3>We pride ourselves on our commitment to quality, craftsmanship, and impeccable attention to detail.</h3>
                 </div>
             </div>
             <div className="servicesOverview">
