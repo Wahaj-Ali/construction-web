@@ -9,16 +9,17 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='footer'>
-            <div className="footerUp">
-                <div className="footerColumn socialMedia">
+            <div className=" socialMedia">
                     <h2>Fully Contructed</h2>
-                    <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses.</p>
+                    <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses. Our mission is simple yet profound: to empower Long Island communities with exceptional construction solutions while embracing the area's unique architectural essence. </p>
                     <div className="smIcons">
                         <Link to="/" className='fsLink'><CiFacebook /></Link>
                         <Link to="/" className='fsLink'><CiTwitter /></Link>
                         <Link to="/" className='fsLink'><CiInstagram /></Link>
                     </div>
                 </div>
+            <div className="footerUp">
+                
 
                 <div className="footerColumn fMenu">
                     <h2>Menu</h2>
