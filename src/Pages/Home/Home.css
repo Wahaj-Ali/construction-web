@@ -20,9 +20,9 @@
 
     /* margin-bottom: 0; */
     color: #3aafa9;
-    font-family: 'Teko';
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 42px;
     padding-bottom: 5px;
     border-bottom: 2px dotted;
@@ -45,7 +45,7 @@
 }
 
 .servicesOverview {
-    background-color: #def2f1;
+    /* background-color: #def2f1; */
     padding: 20px 100px;
     margin-top: 20px;
 }
