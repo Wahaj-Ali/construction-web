@@ -6,7 +6,7 @@
     background-color: #2b787a;
     color: #def2f1;
     /* box-shadow: 3px 5px 9px 0px #5bbcbec7; */
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     transition: all 0.3s ease-out;
 }
 
