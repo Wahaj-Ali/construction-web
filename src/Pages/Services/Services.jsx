@@ -13,7 +13,7 @@ import './Services.css';
 const Services = () => {
     return (
         <>
-            <div className='insuranceHero serviceHero'>
+            <div className='insuranceHero'>
                 <img src={servicesBg} alt="Insurance Carriers" className='insuranceHeroImg shImg' />
                 <div className="insuranceHeroDesc">
                     <h1 className="ihTtitle">Our Services</h1>
