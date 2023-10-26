@@ -7,6 +7,7 @@ import AboutUs from './Pages/AboutUs/AboutUs';
 import Footer from './Components/Footer/Footer';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import FAQs from './Pages/FAQs/FAQs';
+import Services from './Pages/Services/Services';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about_us" element={<AboutUs />} />
         <Route path='contact_us' element={<ContactUs />}/>
         <Route path='/FAQs' element={<FAQs />}/>
+        <Route path='/services' element={<Services />} />
         </Routes>
         <Footer />
       </Router>
