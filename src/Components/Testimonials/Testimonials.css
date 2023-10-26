@@ -1,0 +1,68 @@
+.testimonial {
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #000;
+    position: relative;
+    margin: 25px 0;
+  }
+  
+  .testimonialDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #155f98;
+  }
+   
+  /* .testimonial-container {
+    display: flex;
+  } */
+  
+  .testimonail-contnet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17252a;
+    box-shadow: 1px 1px 10px #000000;
+    /* height: 200px; */
+  }
+  
+  .people-quotes {
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    padding: 15px;
+  }
+  
+  .quote-icon {
+    background-color: bisque;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    align-self: center;
+  }
+  
+  .quote p {
+    color: #def2f1;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .person-detail h4 {
+    color: #3aafa9;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0;
+  }
