@@ -60,6 +60,10 @@
     color: #fff;
 }
 
+.pri:hover {
+    text-decoration: underline;
+}
+
 .fContacts {
     display: flex;
     flex-direction: column;

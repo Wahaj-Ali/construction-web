@@ -1,16 +1,17 @@
 .contactHeading {
-  margin-top: 110px;
+  margin-top: 95px;
   text-align: center;
   padding-bottom: 5px;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #def2f1;
 }
 
 .contactHeading h1 {
   border-bottom: 2px dotted;
-  margin: 0;
+  /* margin: 0; */
   color: #3aafa9;
   font-family: 'Teko';
   font-weight: 600;
@@ -22,6 +23,7 @@
     display: flex;
     padding: 50px 100px;
     justify-content: space-around;
+    background: #def2f1;
 }
 
 .contactDetails {
