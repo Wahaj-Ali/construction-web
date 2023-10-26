@@ -5,7 +5,8 @@
     margin-top: 30px;
     background-color: #2b787a;
     color: #def2f1;
-    box-shadow: 3px 5px 9px 0px #5bbcbec7;
+    /* box-shadow: 3px 5px 9px 0px #5bbcbec7; */
+    border-radius: 10px 10px 0 0;
 }
 
 #nameLink {
@@ -23,6 +24,7 @@
 .sImg img {
     width: 100%;
     height: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .sHead {
