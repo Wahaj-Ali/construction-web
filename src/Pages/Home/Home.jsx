@@ -34,6 +34,8 @@ const Home = () => {
                 </div>
             </div>
 
+            <Testimonials />
+
             <div className="servicesOverview">
                 <div className="homeHeading">
                     <h2>Our Services</h2>
@@ -56,7 +58,7 @@ const Home = () => {
                 </div>
 
                 <AbWCU />
-                <Testimonials />
+                
 
             </div>
         </>

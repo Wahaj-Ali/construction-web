@@ -11,7 +11,7 @@ import './Testimonials.css';
 const testimonials = [
     {
       quote: "I couldn't be happier with the kitchen remodeling project by Fully Constructed. Sarah and her team turned my vision into reality. The attention to detail and craftsmanship are outstanding.",
-      person: "JJohn Smith",
+      person: "John Smith",
     },
     {
       quote: "Fully Constructed exceeded my expectations with their room additions. They seamlessly blended the new space with our existing home. I highly recommend their services.",
