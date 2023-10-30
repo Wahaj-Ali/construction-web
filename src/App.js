@@ -14,6 +14,7 @@ import GetAQuote from './Pages/Get A Quote/GetAQuote';
 import TermsOfService from './Pages/Terms of Service/TermsOfService';
 import ScrolltoTop from './Components/ScrollToTop';
 import Thanks from './Pages/Thanks/Thanks';
+import Sitemap from './Pages/Sitemap/Sitemap';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/get-a-quote" element={<GetAQuote />} />
           <Route path='/thanks' element={<Thanks />} />
           <Route path='/privacy-policy' element={<TermsOfService />} />
+          <Route path='/sitemap' element={<Sitemap />} />
         </Routes>
         <Footer />
       </Router>
