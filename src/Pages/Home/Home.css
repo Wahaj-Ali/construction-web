@@ -54,3 +54,28 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 1024px) { 
+    .homeAbout {
+        padding: 0 80px;
+    }
+
+    .servicesOverview {
+        padding: 20px 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .homeAbout {
+        padding: 0 50px;
+    }
+
+    .servicesOverview {
+        padding: 20px 50px;
+    }
+
+    .hbLogo {
+        height: 70px;
+        width: 70px;
+    }
+}

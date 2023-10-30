@@ -105,9 +105,19 @@
     gap: 15px;
 }
 
+@media (max-width: 1024px) {
+    .footerUp, .footerDown, .socialMedia {
+        padding: 20px 80px;
+    }
+}
+
 @media (max-width: 786px) {
-    .footerUp, .footerDown {
+    .footerUp, .footerDown, .socialMedia {
         padding: 20px 50px;
+    }
+
+    .fContactInfo {
+        width: 40%;
     }
 }
 

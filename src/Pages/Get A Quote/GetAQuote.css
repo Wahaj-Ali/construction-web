@@ -116,13 +116,11 @@
     font-style: italic;
   }
   
-  .getQuoteStyle {
+  /* .getQuoteStyle {
     height: auto;
-  }
-   
-  /* .getQuoteStyle .wcuList .wcuListItem {
-    align-items: center;
   } */
+   
+ 
   
   .success-message {
     display: flex;
