@@ -105,6 +105,12 @@
     gap: 15px;
 }
 
+.fsiLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+  }
+
 @media (max-width: 1024px) {
     .footerUp, .footerDown, .socialMedia {
         padding: 20px 80px;

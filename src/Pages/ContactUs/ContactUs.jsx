@@ -49,7 +49,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Phone</h3>
-                            <p>(516) 200-4649</p>
+                            <a className='fsiLink' href="tel:(516) 200-4649">(516) 200-4649</a>
                         </div>
                     </div>
                 </div>
