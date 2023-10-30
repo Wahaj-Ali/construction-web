@@ -44,19 +44,14 @@
 
 .nav-item a {
   text-decoration: none;
-  /* color: #354256; */
   color: #fff;
-  /* font-size: 1.2rem; */
   font: normal 500 21px / 25px "Teko", Helvetica, Arial, Verdana, sans-serif;
+  /* font: normal 500 18px / 25px "Poppins", sans-serif; */
   transition: all 0.3s ease-out;
   text-transform: uppercase;
 }
 
 .nav-item a:hover {
-  /* border-bottom: 1px solid #354256; */
-  /* text-shadow: 1px 1px 10px #000000; */
-  /* border-bottom: 1px solid; */
-  /* color: chocolate; */
   transform: translateY(-3px); 
 }
 
