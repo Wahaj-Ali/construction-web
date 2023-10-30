@@ -27,37 +27,37 @@ const Sitemap = () => {
                 <Link to="/services" className='siteLink'>Types of services provided by Fully Constructed</Link>
               </div>
               <div className="subItemContent">
-                <h3>KITCHEN REMODELING</h3>
+                <h3>Kitchen Remodeing</h3>
                 <Link to="/services/kitchen-remodeling" className='siteLink'>Kitchen Remodeing</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>BATHROOM REMODELING</h3>
+                <h3>Bathroom Remodeing</h3>
                 <Link to="/services/bathroom-remodeling" className='siteLink'>Bathroom Remodeing</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>BASEMENT FINISHING</h3>
+                <h3>Basement Finishing</h3>
                 <Link to="/services/basement-finishing" className='siteLink'>Basement Finishing</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>ROOM ADDITIONS</h3>
+                <h3>Room Additions</h3>
                 <Link to="/services/room-additions" className='siteLink'>Room Additions</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>INTERIOR PAINTING</h3>
+                <h3>Interior Painting</h3>
                 <Link to="/services/interior-painting" className='siteLink'>Interior Painting</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>FLOORING INSTALLATION</h3>
+                <h3>Flooring Installation</h3>
                 <Link to="/services/flooring-installation" className='siteLink'>Flooring Installation</Link>
               </div>
 
               <div className="subItemContent">
-                <h3>CARPENTRY AND TRIMWORK</h3>
+                <h3>Carpentry and Trimwork</h3>
                 <Link to="/services/carpentry-and-trimwork" className='siteLink'>Carpentry and Trimwork</Link>
               </div>
             </div>
