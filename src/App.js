@@ -11,6 +11,7 @@ import Services from './Pages/Services/Services';
 import Service from './Components/Service/Service';
 import { getServiceData } from './Data/Service/ServiceData';
 import GetAQuote from './Pages/Get A Quote/GetAQuote';
+import TermsOfService from './Pages/Terms of Service/TermsOfService';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             />
           ))}
           <Route path="/get-a-quote" element={<GetAQuote />} />
+          <Route path='/privacy-policy' element={<TermsOfService />} />
         </Routes>
         <Footer />
       </Router>
