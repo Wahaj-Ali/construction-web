@@ -29,7 +29,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
-                            <p>hello@fullyConstructed.com</p>
+                            <p>gc@fullyconstructed.com</p>
                         </div>
                     </div>
 
