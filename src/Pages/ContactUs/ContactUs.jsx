@@ -1,5 +1,4 @@
 import React from 'react';
-import contactBg from '../../Assets/contact-bg.jpg';
 import { BiMap, BiSolidPhoneCall } from 'react-icons/bi';
 import {HiOutlineMail} from 'react-icons/hi';
 import './ContactUs.css';
@@ -20,7 +19,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Address</h3>
-                            <p>address......</p>
+                            <p>4 New Hyde Park Rd - 4, Franklin Square, NY 11010</p>
                         </div>
                     </div>
 
@@ -30,7 +29,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
-                            <p>email......</p>
+                            <p>hello@fullyConstructed.com</p>
                         </div>
                     </div>
 
@@ -40,7 +39,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Phone</h3>
-                            <p>phone number......</p>
+                            <p>(516) 200-4649</p>
                         </div>
                     </div>
                 </div>
