@@ -17,7 +17,11 @@ const Service = ({ servicesBg, serviceName, sPl, sIntro, serviceFeatures, sEnd }
 
             {serviceFeatures && serviceFeatures.map((feature, index) => (
                 <div key={index} className="serviceFeature">
+                    <div className="heading">
+                        <div className="diamond"></div>
                     <h4>{feature.sFheading}</h4>
+                    </div>
+                    
                     <p>{feature.sFDesc}</p>
                 </div>
             ))}
