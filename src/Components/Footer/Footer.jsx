@@ -35,17 +35,16 @@ const Footer = () => {
                     <h2>Business Hours</h2>
 
                     <div className="hours">
-                        <p>Monday - Friday 8:00 Am - 6:00 PM</p>
-                        <p>Saturday - Sunday 9:00 AM - 5:00 PM</p>
+                        <p>9 AM to 6 PM - 7 days a week</p>
                     </div>
                 </div>
 
                 <div className="footerColumn fContactInfo">
                     <h2>Contact Us</h2>
                     <div className="fContacts">
-                        <p><BiMap />Physical address</p>
-                        <p><BiPhoneCall />Phone Number</p>
-                        <p><MdEmail />Email</p>
+                        <p><BiMap />4 New Hyde Park Rd - 4, Franklin Square, NY 11010</p>
+                        <p><BiPhoneCall />(516) 200-4649</p>
+                        <p><MdEmail />hello@fullyConstructed.com</p>
                     </div>
                 </div>
             </div>
@@ -55,8 +54,8 @@ const Footer = () => {
                 </div>
 
                 <div className="privacyLinks">
-                    <Link to="/" className='fLink pri'>Privacy Policy</Link>
-                    <Link to="/" className='fLink pri'>Terms of Service</Link>
+                    <Link to="/privacy-policy" className='fLink pri'>Privacy Policy</Link>
+                    {/* <Link to="/" className='fLink pri'>Terms of Service</Link> */}
                     <Link to="/" className='fLink pri'>Sitemap</Link>
                 </div>
             </div>
