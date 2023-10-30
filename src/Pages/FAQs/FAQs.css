@@ -2,3 +2,33 @@
     padding: 0 100px;
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 1024px) { 
+    .FAQs {
+      padding: 0 80px;
+    }
+  }
+
+  @media only screen and (max-width: 786px) { 
+    .FAQs {
+      padding: 0 50px;
+    }
+  }
+
+  @media only screen and (max-width: 430px) { 
+    .FAQs {
+      padding: 0 20px;
+    }
+
+    .singleFAQ h3 {
+        font-size: 16px;
+    }
+
+    .fAns p {
+        font-size: 14px;
+    }
+
+    #qIcon, #aIcon {
+        font-size: 30px;
+    }
+  }
