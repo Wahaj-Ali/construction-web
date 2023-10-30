@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from 'react';
-// import logo from '../../assets/logomin.png';
+import logo from '../../Assets/logo.png';
 import { Link } from 'react-router-dom';
 import {AiOutlineDoubleRight} from 'react-icons/ai';
 import './Navbar.css';
 
 export const Navbar = () => {
 
-  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
-
-  
 
   useEffect(() => {
     const handleResize = () => {
@@ -46,16 +43,18 @@ export const Navbar = () => {
     }
   };
 
-  // const closeMobileMenu = () => {
-  //   setIsMobileMenuOpen(false);
-  // };
+  const closeMobileMenu = () => {
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+      document.body.classList.remove('mobile-menu-active');
+    }
+  };
 
   return (
     <nav className="navbar">
       <div className="nav-container">
         <div className="logo">
-          {/* <Link to="/"><img src={logo} alt="Logo" /></Link> */}
-          <p>Logo</p>
+          <Link to="/" onClick={closeMobileMenu}><img src={logo} alt="Fully Constructed" /></Link>
         </div>
         <div className="mobile-menu-button" onClick={toggleMobileMenu}>
           <span className="menu-icon">&#9776;</span>
@@ -65,27 +64,19 @@ export const Navbar = () => {
             <li
               key={name}
               className={submenu ? 'nav-item dropdown' : 'nav-item'}
+              onClick={closeMobileMenu}
             >
               <Link to={url}>{name}</Link>
               {isMobileView && <AiOutlineDoubleRight />}
-              {/* {submenu && (
-                <ul className="dropdown-menu">
-                  {submenu.map(({ url: subUrl, name: subName }) => (
-                    <li key={subName}>
-                      <Link to={subUrl} onClick={closeMobileMenu}>{subName}</Link>
-                    </li>
-                  ))}
-                </ul>
-              )} */}
             </li>
           ))}
           {isMobileView && (
-            <li className="nav-item qBtn">
-              <Link to="/get_a_quote"><button className='quote-btn mblMEnu'>Get a Quote</button></Link>
+            <li className="nav-item qBtn" onClick={closeMobileMenu}>
+              <Link to="/get-a-quote"><button className='quote-btn mblMEnu'>Get a Quote</button></Link>
             </li>
           )}
         </ul>
-        <Link to="/get_a_quote"><button className='quote-btn nav'>Get a Quote</button></Link>
+        <Link to="/get-a-quote"><button className='quote-btn nav'>Get a Quote</button></Link>
       </div>
     </nav>
   );

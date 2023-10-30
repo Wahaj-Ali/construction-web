@@ -16,21 +16,17 @@
     padding: 0 75px;
     top: 15%;
     width: 50%;
-    /* color: #212833; */
-    /* position: relative; */
     overflow: auto;
     max-height: 100%;
-    /* background-color: rgba(255, 255, 255, 0.8); */
   }
   
   .heroTitle {
     font-size: 70px;
-    /* font-family: 'Teko', sans-serif; */
     font-weight: 500;
     line-height: 70px;
     margin-bottom: 30px;
-    /* color: #5d5b9f; */
-    color: #4F4A41;
+    color: #2b7a78;
+    /* color: #4F4A41; */
     text-shadow: 3px 3px 4px #000;
   }
   
@@ -38,7 +34,7 @@
     font-weight: 600;
     /* line-height: 2rem; */
     font-size: 2.2rem;
-    color: #fff;
+    color: #def2f1;
   }
   
   .heroImg {

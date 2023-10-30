@@ -1,0 +1,32 @@
+.terms_of_service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    padding: 0 100px;
+  }
+  
+  .tos-intro h2 {
+    text-align: center;
+  }
+  
+  .tos-content h3 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .terms_of_service {
+      padding: 0 80px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .terms_of_service {
+      padding: 0 20px;
+    }
+  
+    .tos-content h3 {
+      font-weight: 600;
+      font-size: 22px;
+    }
+  }

@@ -1,6 +1,5 @@
 import React from 'react'
 import AboutHero from '../../Components/AboutHero/AboutHero';
-import AbWCU from '../../Components/AbtWCU/AbWCU';
 import joinBg from '../../Assets/join-bg.jpg';
 import './AboutUs.css';
 
@@ -19,8 +18,6 @@ const AboutUs = () => {
             {/* <div className='underline'></div> */}
             <p className="aboutSecText">At Fully Constructed, we hold firm to our commitment to deliver excellence. We understand that construction and renovation projects can present unique challenges, and our commitment is to support you in achieving your vision with tailored solutions. As a locally-focused platform, we take the time to understand your specific needs and project goals.</p>
         </div>
-
-        <AbWCU />
 
         <div className="aboutSec">
             <h3>Our Mission</h3>

@@ -6,7 +6,7 @@
 
 .aboutSec h3 {
     font-weight: 500;
-    color: #6b67b0;
+    color: #2b7a78;
     font-size: 24px;
     line-height: 26px;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
 
 .aboutSecText {
     font-weight: 500;
-    color: #333333;
+    color: #17252a;
     font-size: 17px;
     line-height: 27px;
     font-family: 'Poppins', sans-serif;
@@ -51,4 +51,44 @@
     font-size: 24px;
     margin: 0;
     text-shadow: 3px 3px 4px #000;
+}
+
+@media (max-width: 1024px) {
+    .joinUs {
+        height: 35vh;
+    }
+
+    .aboutSec {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 786px) {
+    .aboutSec {
+        padding: 0 50px;
+    }
+
+    .joinUs p {
+        padding: 20px 50px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .aboutSec {
+        padding: 0 20px;
+    }
+
+    .joinUs {
+        height: auto;
+    }
+
+    .joinUs p {
+        padding: 25px 10px;
+        font-size: 18px;
+    }
+
+    .joinUs img {
+        height: 39vh;
+    }
 }

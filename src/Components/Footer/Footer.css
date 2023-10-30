@@ -1,5 +1,5 @@
 .footer {
-    background-color: #000;
+    background-color: #17252a;
     color: #fff;
 }
 
@@ -15,6 +15,34 @@
     flex-direction: column;
 }
 
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
+    text-transform: uppercase;
+    color: #3aafa9;
+}
+
+.socialMedia p {
+    margin: 0;
+    margin-bottom: 15px;
+    /* width: 230px; */
+    text-align: justify;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hours p {
+    margin: 0;
+}
+
 .links {
     display: flex;
     flex-direction: column;
@@ -22,7 +50,7 @@
 }
 
 .fLink {
-    color: #88BDBC;
+    color: #3aafa9;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -31,6 +59,10 @@
 
 .fLink:hover {
     color: #fff;
+}
+
+.pri:hover {
+    text-decoration: underline;
 }
 
 .fContacts {
@@ -47,8 +79,8 @@
 }
 
 .fsLink {
-    color: #88BDBC;
-    font-size: 24px;
+    color: #3aafa9;
+    font-size: 30px;
     display: flex;
 }
 
@@ -71,4 +103,46 @@
 .privacyLinks {
     display: flex;
     gap: 15px;
+}
+
+.fsiLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+  }
+
+@media (max-width: 1024px) {
+    .footerUp, .footerDown, .socialMedia {
+        padding: 20px 80px;
+    }
+}
+
+@media (max-width: 786px) {
+    .footerUp, .footerDown, .socialMedia {
+        padding: 20px 50px;
+    }
+
+    .fContactInfo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 430px) {
+    .footerUp {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .footerDown {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .socialMedia {
+        padding: 10px 20px;
+    }
+
+    .fContactInfo {
+        width: auto;
+    }
 }
