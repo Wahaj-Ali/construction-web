@@ -12,12 +12,13 @@ import Service from './Components/Service/Service';
 import { getServiceData } from './Data/Service/ServiceData';
 import GetAQuote from './Pages/Get A Quote/GetAQuote';
 import TermsOfService from './Pages/Terms of Service/TermsOfService';
-
+import ScrolltoTop from './Components/ScrollToTop';
 
 function App() {
   return (
     <div className='App'>
       <Router>
+        <ScrolltoTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
