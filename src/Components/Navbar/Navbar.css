@@ -166,6 +166,7 @@
   .nav-item a {
     font-size: 1.5rem;
     padding: 5px 0;
+    color: #17252a;
   }
 
   .nav-list.open {
