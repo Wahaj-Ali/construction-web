@@ -102,12 +102,15 @@ const GetAQuote = () => {
 
 
                         <div className="dropDown-selector">
-                            <label htmlFor="dropdown" >Insurance Type</label>
+                            <label htmlFor="dropdown" >Service Type</label>
                             <select id="dropdown" name="_Insurance Type" value={dropdownSelectedOption} onChange={handleDropdownChange}>
-                                <option value="Auto">Auto</option>
-                                <option value="Home">Home</option>
-                                <option value="Life">Life</option>
-                                <option value="Business">Business</option>
+                                <option value="Kitchen Remodeling">Kitchen Remodeling</option>
+                                <option value="Bathroom Remodeling">Bathroom Remodeling</option>
+                                <option value="Basement Finishing">Basement Finishing</option>
+                                <option value="Room Additions">Room Additions</option>
+                                <option value="Interior Painting">Interior Painting</option>
+                                <option value="Flooring Installation">Flooring Installation</option>
+                                <option value="Carpentry and Trim Work">Carpentry and Trim Work</option>
                             </select>
                         </div>
                         <div className="radio-selector">
@@ -136,7 +139,7 @@ const GetAQuote = () => {
                     </div>
 
                     <div className="textArea">
-                        <textarea name="message" id="getQuoteTextArea" cols="30" rows="10" placeholder="Tell us about any specific coverage requirements or additional information you'd like us to consider while preparing your quote." />
+                        <textarea name="message" id="getQuoteTextArea" cols="30" rows="10" placeholder="Tell us about any specific project requirements or additional information you'd like us to consider while preparing your quote." />
                     </div>
 
                     <div className="submit-btn">
