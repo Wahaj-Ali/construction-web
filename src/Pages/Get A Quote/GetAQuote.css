@@ -134,6 +134,11 @@
     width: 80%;
     font-size: 24px;
   }
+
+  .getQuoteBtn:hover {
+    background-color: #2b787a;
+    color: #def2f1;
+  }
   
   @media (max-width: 1024px) {
     .getaQuoteForm {

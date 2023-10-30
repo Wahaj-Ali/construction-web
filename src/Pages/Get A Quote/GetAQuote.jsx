@@ -140,7 +140,7 @@ const GetAQuote = () => {
                     </div>
 
                     <div className="submit-btn">
-                        <button type='submit' className='quote-btn contactBtn'>Submit</button>
+                        <button type='submit' className='quote-btn contactBtn getQuoteBtn'>Submit</button>
                     </div>
                 </form>
             </div>
