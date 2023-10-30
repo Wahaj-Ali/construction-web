@@ -1,0 +1,44 @@
+.thanks {
+    margin-top: 90px;
+    padding: 0 100px;
+    text-align: center;
+    height: 70dvh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .msgIcon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .msg {
+    font-size: 200px !important;
+  }
+  
+  .thanksText h2 {
+    margin-top: 0;
+  }
+  
+  .thanksText p {
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .msg {
+      font-size: 150px !important;
+    }
+  
+    .thanksText p {
+      font-size: 20px;
+    }
+  
+  }
+  
+  @media (max-width: 430px) {
+    .thanks {
+      padding: 0 20px;
+    }
+  }
