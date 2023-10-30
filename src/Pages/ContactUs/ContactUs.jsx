@@ -39,7 +39,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
-                            <p>gc@fullyconstructed.com</p>
+                            <p><a className='fsiLink' href="mailto:gc@fullyconstructed.com">gc@fullyconstructed.com</a></p>
                         </div>
                     </div>
 

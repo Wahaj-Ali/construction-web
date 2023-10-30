@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="fContacts">
                         <p><BiMap />4 New Hyde Park Rd - 4, Franklin Square, NY 11010</p>
                         <p><BiPhoneCall /><a className='fsiLink' href="tel:(516) 200-4649">(516) 200-4649</a></p>
-                        <p><MdEmail />gc@fullyconstructed.com</p>
+                        <p><MdEmail /><a className='fsiLink' href="mailto:gc@fullyconstructed.com">gc@fullyconstructed.com</a></p>
                     </div>
                 </div>
             </div>
