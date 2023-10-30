@@ -30,7 +30,6 @@
 .contactDetails {
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
 }
 
 .cDetail {
@@ -124,4 +123,34 @@
     width: 92%;
     color: #fff;
     font-weight: 600;
+  }
+
+  @media (max-width: 1024px) {
+    .formSec {
+      padding: 50px 50px;
+    }
+
+    .contactDetails {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .formSec {
+      flex-direction: column;
+      padding: 20px 20px;
+    }
+
+    .contactDetails {
+      width: auto;
+    }
+    
+    .form {
+      width: auto;
+      margin-top: 15px;
+    }
+
+    .contactHeading h1 {
+      margin-bottom: 0;
+    }
   }
