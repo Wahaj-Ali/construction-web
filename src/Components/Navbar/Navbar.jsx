@@ -75,11 +75,11 @@ export const Navbar = () => {
           ))}
           {isMobileView && (
             <li className="nav-item qBtn">
-              <Link to="/get_a_quote"><button className='quote-btn mblMEnu'>Get a Quote</button></Link>
+              <Link to="/get-a-quote"><button className='quote-btn mblMEnu'>Get a Quote</button></Link>
             </li>
           )}
         </ul>
-        <Link to="/get_a_quote"><button className='quote-btn nav'>Get a Quote</button></Link>
+        <Link to="/get-a-quote"><button className='quote-btn nav'>Get a Quote</button></Link>
       </div>
     </nav>
   );
