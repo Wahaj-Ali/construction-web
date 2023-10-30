@@ -13,11 +13,11 @@
   }
   
   .getaQuoteForm {
-    padding: 20px 80px;
+    padding: 20px 100px;
     /* background: antiquewhite; */
     background-color: #def2f1;
     color: #17252a;
-    margin: 10px 100px;
+    /* margin: 10px 100px; */
   }
   
   .contactInfo {
@@ -138,7 +138,7 @@
   
   @media (max-width: 1024px) {
     .getaQuoteForm {
-      margin: 10px 80px;
+      padding: 10px 80px;
     }
   
     .getAQuote h1 {
@@ -166,8 +166,7 @@
   
   @media (max-width: 768px) {
     .getaQuoteForm {
-      margin: 10px 60px;
-      padding: 20px 60px;
+      padding: 10px 50px;
     }
   
     .selectorsDiv {
@@ -212,6 +211,7 @@
   
     .address-inputs {
       flex-direction: column;
+      gap: 5px;
     }
   
     .address-inputs input {
