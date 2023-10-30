@@ -1,21 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BiMap, BiSolidPhoneCall } from 'react-icons/bi';
-import {HiOutlineMail} from 'react-icons/hi';
+import { HiOutlineMail } from 'react-icons/hi';
+import { useForm } from '@formspree/react';
 import './ContactUs.css';
 
 const ContactUs = () => {
+
+    const [state, handleSubmit] = useForm('mzblonpk');
+
+    useEffect(() => {
+        if (state.succeeded) {
+            window.location.href = '/thanks';
+        }
+    }, [state.succeeded]);
+
     return (
         <>
             <div className='contactHeading'>
-            <h1>Contact Us</h1>
+                <h1>Contact Us</h1>
             </div>
-            
+
             <div className="formSec">
-                
+
                 <div className="contactDetails">
                     <div className="cDetail">
                         <div className="cIcon">
-                            <BiMap className='cuIcon'/>
+                            <BiMap className='cuIcon' />
                         </div>
                         <div className="ciText">
                             <h3>Address</h3>
@@ -25,7 +35,7 @@ const ContactUs = () => {
 
                     <div className="cDetail">
                         <div className="cIcon">
-                            <HiOutlineMail className='cuIcon'/>
+                            <HiOutlineMail className='cuIcon' />
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
@@ -35,7 +45,7 @@ const ContactUs = () => {
 
                     <div className="cDetail">
                         <div className="cIcon">
-                            <BiSolidPhoneCall className='cuIcon'/>
+                            <BiSolidPhoneCall className='cuIcon' />
                         </div>
                         <div className="ciText">
                             <h3>Phone</h3>
@@ -44,7 +54,7 @@ const ContactUs = () => {
                     </div>
                 </div>
 
-                <form action="submit" className="form" >
+                <form action="submit" className="form" onSubmit={handleSubmit}>
                     <label htmlFor="" className='contactFormLabel'>Name <span className='red'> *</span></label>
                     <input className='cFContent' name="name" type="text" placeholder='Enter your name' required />
                     <label htmlFor="" className='contactFormLabel'>Email<span className='red'> *</span></label>
