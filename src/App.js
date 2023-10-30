@@ -10,6 +10,7 @@ import FAQs from './Pages/FAQs/FAQs';
 import Services from './Pages/Services/Services';
 import Service from './Components/Service/Service';
 import { getServiceData } from './Data/Service/ServiceData';
+import GetAQuote from './Pages/Get A Quote/GetAQuote';
 
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
           <Route path='contact_us' element={<ContactUs />} />
           <Route path='/FAQs' element={<FAQs />} />
           <Route path='/services' element={<Services />} />
-          {/* <Route path='/services/kitchen-remodeling' /> */}
           {getServiceData().map((service, index) => (
             <Route
               key={index}
@@ -31,6 +31,7 @@ function App() {
               element={<Service {...service} />}
             />
           ))}
+          <Route path="/get-a-quote" element={<GetAQuote />} />
         </Routes>
         <Footer />
       </Router>
