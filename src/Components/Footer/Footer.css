@@ -131,4 +131,12 @@
         padding: 10px 20px;
         flex-direction: column;
     }
+
+    .socialMedia {
+        padding: 10px 20px;
+    }
+
+    .fContactInfo {
+        width: auto;
+    }
 }
