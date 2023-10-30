@@ -57,6 +57,10 @@
     .joinUs {
         height: 35vh;
     }
+
+    .aboutSec {
+        padding: 0 80px;
+    }
 }
 
 @media (max-width: 786px) {
