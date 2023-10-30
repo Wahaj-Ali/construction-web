@@ -15,16 +15,19 @@ const Service = ({ servicesBg, serviceName, sPl, sIntro, serviceFeatures, sEnd }
                 <h4>{sIntro}</h4>
             </div>
 
-            {serviceFeatures && serviceFeatures.map((feature, index) => (
-                <div key={index} className="serviceFeature">
-                    <div className="heading">
-                        <div className="diamond"></div>
-                    <h4>{feature.sFheading}</h4>
+            <div className="serviceFeatures">
+                {serviceFeatures && serviceFeatures.map((feature, index) => (
+                    <div key={index} className="serviceFeature">
+                        <div className="heading">
+                            <div className="diamond"></div>
+                            <h4>{feature.sFheading}</h4>
+                        </div>
+
+                        <p>{feature.sFDesc}</p>
                     </div>
-                    
-                    <p>{feature.sFDesc}</p>
-                </div>
-            ))}
+                ))}
+            </div>
+
 
             <div className="sEnding">
                 <p>{sEnd}</p>
