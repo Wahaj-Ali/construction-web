@@ -9,8 +9,6 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 768);
 
-  
-
   useEffect(() => {
     const handleResize = () => {
       setIsMobileView(window.innerWidth <= 768); // Adjust the breakpoint as needed
@@ -45,6 +43,13 @@ export const Navbar = () => {
     }
   };
 
+  const closeMobileMenu = () => {
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+      document.body.classList.remove('mobile-menu-active');
+    }
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -59,22 +64,14 @@ export const Navbar = () => {
             <li
               key={name}
               className={submenu ? 'nav-item dropdown' : 'nav-item'}
+              onClick={closeMobileMenu}
             >
               <Link to={url}>{name}</Link>
               {isMobileView && <AiOutlineDoubleRight />}
-              {/* {submenu && (
-                <ul className="dropdown-menu">
-                  {submenu.map(({ url: subUrl, name: subName }) => (
-                    <li key={subName}>
-                      <Link to={subUrl} onClick={closeMobileMenu}>{subName}</Link>
-                    </li>
-                  ))}
-                </ul>
-              )} */}
             </li>
           ))}
           {isMobileView && (
-            <li className="nav-item qBtn">
+            <li className="nav-item qBtn" onClick={closeMobileMenu}>
               <Link to="/get-a-quote"><button className='quote-btn mblMEnu'>Get a Quote</button></Link>
             </li>
           )}
