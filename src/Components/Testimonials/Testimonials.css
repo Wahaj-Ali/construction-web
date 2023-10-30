@@ -21,11 +21,7 @@
     margin: 0;
     color: #155f98;
   }
-   
-  /* .testimonial-container {
-    display: flex;
-  } */
-  
+ 
   .testimonail-contnet {
     display: flex;
     align-items: center;
@@ -36,12 +32,14 @@
   }
   
   .people-quotes {
+    height: 250px;
+    justify-content: center;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 2;
-    padding: 15px;
+    padding: 30px;
   }
   
   .quote-icon {
@@ -49,14 +47,15 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    width: 25px;
-    align-self: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
   }
   
   .quote p {
     color: #def2f1;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     text-align: center;
   }
@@ -64,8 +63,12 @@
   .person-detail h4 {
     color: #3aafa9;
     font-weight: 600;
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .qIcon {
+    font-size: 25px;
   }
 
   @media only screen and (max-width: 1024px) { 
@@ -77,6 +80,10 @@
   @media only screen and (max-width: 768px) { 
     .testimonial {
       padding: 0 50px;
+    }
+
+    .quote p {
+      font-size: 16px;
     }
   }
 
