@@ -15,8 +15,8 @@
   .getaQuoteForm {
     padding: 20px 100px;
     /* background: antiquewhite; */
-    background-color: #def2f1;
-    color: #17252a;
+    background: linear-gradient(to left,#6a58ca,#8174c4);
+    color: #fff;
     /* margin: 10px 100px; */
   }
   
