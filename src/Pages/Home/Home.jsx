@@ -54,7 +54,7 @@ const Home = () => {
 
                     <ServiceOverview sImg={floor} currentPage="home" sName="Flooring Installation" sDesc="Showcase your expertise in installing various types of flooring, such as hardwood, tile, laminate, or carpet." sLink="flooring-installation"/>
 
-                    <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentary-and-trimwork"/>
+                    <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentry-and-trimwork"/>
                 </div>
 
                 <AbWCU />
