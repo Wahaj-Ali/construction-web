@@ -59,7 +59,7 @@ const Testimonials = () => {
 
                   <div className="people-quotes">
                     <div className="quote-icon">
-                      <BsFillChatQuoteFill />
+                      <BsFillChatQuoteFill className='qIcon'/>
                     </div>
                     <div className="person-detail">
                       <h4>{testimonial.person}</h4>
