@@ -140,6 +140,7 @@
 
     .contactDetails {
       width: auto;
+      order: 2;
     }
     
     .form {
