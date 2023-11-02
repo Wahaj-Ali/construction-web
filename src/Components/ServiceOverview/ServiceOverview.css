@@ -85,6 +85,7 @@
     .serviceOverview {
         flex-direction: column;
         height: auto;
+        width: auto;
     }
 
     .serviceData {
