@@ -89,6 +89,11 @@
         font-size: 36px;
         text-align: center;
         line-height: normal;
+        margin-bottom: 0;
+    }
+
+    .homeAbout p {
+        text-align: justify;
     }
     
     .hbLogo {
