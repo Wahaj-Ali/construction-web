@@ -19,20 +19,20 @@
     border-bottom: 1px dotted; */
 
     /* margin-bottom: 0; */
-    color: #3aafa9;
+    color: #a65445;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 42px;
     line-height: 42px;
-    padding-bottom: 5px;
-    border-bottom: 2px dotted;
+    /* padding-bottom: 5px; */
+    /* border-bottom: 2px dotted; */
 }
 
 .homeAbout p {
-    font-weight: 500;
+    font-weight: 600;
     color: #17252a;
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 1.8;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }

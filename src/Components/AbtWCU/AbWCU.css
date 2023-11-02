@@ -17,13 +17,13 @@
   .whyUsTitle h2 {
     /* font-size: 40px; */
     /* margin: 0; */
-    color: #3aafa9;
+    color: #a65445;
     font-family: 'Teko';
     font-weight: 600;
     font-size: 50px;
     line-height: 42px;
-    padding-bottom: 5px;
-    border-bottom: 2px dotted;
+    /* padding-bottom: 5px;
+    border-bottom: 2px dotted; */
   }
 
   .wcuList {
@@ -37,7 +37,7 @@
   
   .wcuListItem {
     /* width: calc(26% - 20px); */
-    background-color: #17252a;
+    background-color: #5445a6;
     /* height: 225px; */
     color: #fff;
     padding: 10px;
@@ -59,7 +59,7 @@
     align-self: center;
     text-align: center;
     height: 45px;
-    color: #3aafa9;
+    color: #f5f5f5;
   }
   
   .wcuListItem p {

@@ -2,7 +2,7 @@
   height: 95px;
   display: flex;
   justify-content: center;
-  background-color: #3aafa9;
+  background-color: #5445a6;
   /* background-color: #88BDBC; */
   font-family: Maison Neue Bold, sans-serif;
   position: fixed;
@@ -96,7 +96,7 @@
   border: none;
   padding: 15px;
   border-radius: 5px;
-  background-color: #17252a;
+  background-color: #a65445;
   color: #def2f1;
   font-size: 14px;
   font-weight: 600;
@@ -106,7 +106,7 @@
 
 .quote-btn:hover {
   background-color: #def2f1;
-  color: #17252a;
+  color: #a65445;
 }
 
 @media (max-width: 1024px) {

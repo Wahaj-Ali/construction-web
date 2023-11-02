@@ -1,11 +1,11 @@
 .footer {
-    background-color: #17252a;
-    color: #fff;
+    background-color: #fff;
+    box-shadow: 3px -7px 15px rgba(0,0,0,.1);
 }
 
 .footerUp {
     display: flex;
-    padding: 30px 150px;
+    padding: 10px 150px;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -23,7 +23,7 @@
 
 .socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
     text-transform: uppercase;
-    color: #3aafa9;
+    color: #5445a6;
 }
 
 .socialMedia p {
@@ -50,7 +50,7 @@
 }
 
 .fLink {
-    color: #3aafa9;
+    color: #5445a6;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@
 }
 
 .fLink:hover {
-    color: #fff;
+    text-decoration: underline;
 }
 
 .pri:hover {
@@ -79,18 +79,20 @@
 }
 
 .fsLink {
-    color: #3aafa9;
+    color: #5445a6;
     font-size: 30px;
     display: flex;
+    /* transition: all 0.7s ease-out; */
 }
 
-.fsLink :hover {
-    color: #fff;
-}
+/* .fsLink :hover {
+    transform: translateY(-3px);
+} */
 
 .smIcons {
     display: flex;
     gap: 10px;
+    align-self: end;
 }
 
 .footerDown {
