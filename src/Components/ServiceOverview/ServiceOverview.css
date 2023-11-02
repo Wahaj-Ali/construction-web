@@ -1,23 +1,9 @@
 .serviceOverview {
-    /* width: 40%; */
-
-    /* height: 220px;
-    border: 1px solid black;
-    margin-top: 30px;
-    background-color: #2b787a;
-    color: #def2f1;
-    border-radius: 10px;
-    transition: all 0.3s ease-out;
-    display: flex; */
-
     display: flex;
     width: 100%;
     align-self: flex-start;
     justify-content: space-between;
-    /* height: 230px; */
-    /* gap: 30px; */
-    margin: 50px 0;
-    /* box-shadow: 8px 20px 15px rgba(0, 0, 0, 0.1); */
+    margin: 25px 0;
     border-radius: 10px;
     background: linear-gradient(to bottom,#6a58ca,#8174c4);
     padding: 10px;
@@ -29,10 +15,6 @@
 }
 
 .sImg {
-    /* max-width: 380px;
-    width: 40%;
-    padding: 10px; */
-
     display: flex;
     height: 250px;
     overflow: hidden;
@@ -54,11 +36,6 @@
 }
 
 .serviceData {
-    /* display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 70%; */
-
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -68,14 +45,7 @@
 }
 
 .sHead h3 {
-    /* margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 600;
-    width: fit-content;
-    color: #17252a; */
-
     align-items: center;
-    /* color: #9685ea; */
     display: flex;
     font-size: 24px;
     font-weight: 700;
