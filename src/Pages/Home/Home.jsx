@@ -12,6 +12,7 @@ import carpentry from '../../Assets/Carpentry and Trim Work.jpg';
 import AbWCU from '../../Components/AbtWCU/AbWCU';
 import Testimonials from '../../Components/Testimonials/Testimonials';
 import './Home.css';
+import TestimonialV2 from '../../Components/Testimonials/TestimonialV2';
 
 const Home = () => {
     return (
@@ -34,7 +35,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <Testimonials />
+            {/* <Testimonials /> */}
+            <TestimonialV2 />
 
             <div className="servicesOverview">
                 <div className="homeHeading">
