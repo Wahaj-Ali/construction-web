@@ -6,14 +6,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #def2f1;
+  /* background: #def2f1; */
 }
 
 .contactHeading h1 {
-  padding-bottom: 5px;
-  border-bottom: 2px dotted;
   /* margin: 0; */
-  color: #3aafa9;
+  color: #a65445;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 50px;
@@ -24,7 +22,6 @@
     display: flex;
     padding: 50px 100px;
     justify-content: space-around;
-    background: #def2f1;
 }
 
 .contactDetails {
@@ -44,7 +41,7 @@
     padding: 10px;
     border: 2px solid;
     border-radius: 50%;
-    background-color:#def2f1; ;
+    background-color: #5445a6; ;
 }
 
 .cuIcon {
@@ -69,7 +66,7 @@
     box-shadow: 4px 0px 10px -2px rgba(33, 40, 51, 0.6),
                -4px 0px 10px -2px rgba(33, 40, 51, 0.6);
     
-    background-color: #3aafa9;
+    background-color: #5445a6;
     border-radius: 10px;
   }
   
@@ -143,6 +140,7 @@
 
     .contactDetails {
       width: auto;
+      order: 2;
     }
     
     .form {

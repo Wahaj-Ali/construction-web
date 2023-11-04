@@ -2,7 +2,7 @@
     padding: 10px 100px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #3aafa9;
+    color: #5445a6;
 }
 
 .serviceFeatures {
@@ -23,23 +23,23 @@
 
 .serviceFeature h4 {
     font-weight: 500;
-    color: #2b7a78;
+    color: #a65445;
     font-size: 24px;
     line-height: 26px;
     text-transform: uppercase;
     margin-bottom: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px dotted;
+    /* padding-bottom: 5px; */
+    /* border-bottom: 1px dotted; */
     width: -moz-fit-content;
     width: fit-content;
     margin-top: 0;
 }
 
 .sEnding {
-    background: #def2f1;
+    background: #c1b4ff;
     padding: 20px 100px;
     font-weight: 700;
-    color: #2b7a78;
+    color: #a65445;
 }
 
 .heading {
@@ -51,7 +51,7 @@
 .diamond {
     width: 30px;
     height: 30px;
-    background-color: #2b7a78;
+    background-color: #a65445;
     transform: rotate(45deg);
   }
 

@@ -12,6 +12,7 @@ import carpentry from '../../Assets/Carpentry and Trim Work.jpg';
 import AbWCU from '../../Components/AbtWCU/AbWCU';
 import Testimonials from '../../Components/Testimonials/Testimonials';
 import './Home.css';
+import TestimonialV2 from '../../Components/Testimonials/TestimonialV2';
 
 const Home = () => {
     return (
@@ -22,7 +23,7 @@ const Home = () => {
                 <div className="homeHeading">
                     <h2>Building Dreams for Long Island </h2>
                 </div>
-                <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses. Our mission is simple yet profound: to empower Long Island communities with exceptional construction solutions while embracing the area's unique architectural essence. With deep roots in Long Island, we understand the local market intricacies, and our community-centric approach involves active participation in local initiatives, enriching the lives of residents. We pride ourselves on craftsmanship excellence, personalized service, transparency, and unwavering commitment to your vision. Join us at Fully Constructed and experience the difference a dedicated construction partner can make. Together, we'll enrich your living spaces, bring your visions to life, and enhance the vibrant tapestry of Long Island. Expect the Unexpected with Fully Constructed. </p>
+                <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses. Our mission is simple yet profound to empower Long Island communities with exceptional construction solutions while embracing the area's unique architectural essence. With deep roots in Long Island, we understand the local market intricacies, and our community-centric approach involves active participation in local initiatives, enriching the lives of residents. We pride ourselves on craftsmanship excellence, personalized service, transparency, and unwavering commitment to your vision. Join us at Fully Constructed and experience the difference a dedicated construction partner can make. Together, we'll enrich your living spaces, bring your visions to life, and enhance the vibrant tapestry of Long Island. Expect the Unexpected with Fully Constructed. </p>
 
                 <div className="hbLogos">
                     <img className="hbLogo" src={aig} alt="AIG" />
@@ -34,7 +35,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <Testimonials />
+            {/* <Testimonials /> */}
+            <TestimonialV2 />
 
             <div className="servicesOverview">
                 <div className="homeHeading">
@@ -54,7 +56,7 @@ const Home = () => {
 
                     <ServiceOverview sImg={floor} currentPage="home" sName="Flooring Installation" sDesc="Showcase your expertise in installing various types of flooring, such as hardwood, tile, laminate, or carpet." sLink="flooring-installation"/>
 
-                    <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentary-and-trimwork"/>
+                    <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentry-and-trimwork"/>
                 </div>
 
                 <AbWCU />
