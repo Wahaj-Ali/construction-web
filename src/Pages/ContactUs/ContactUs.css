@@ -60,6 +60,10 @@
     margin: 0;
 }
 
+.ciText h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .form {
     width: 45%;
     display: flex;

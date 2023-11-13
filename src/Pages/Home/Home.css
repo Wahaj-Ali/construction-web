@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 .homeAbout {
     padding: 0 100px;
 }
@@ -10,7 +12,7 @@
 
 .homeHeading h2 {
     color: #041434;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 42px;
     line-height: 42px;
@@ -21,7 +23,8 @@
     color: #17252a;
     font-size: 18px;
     line-height: 1.8;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
