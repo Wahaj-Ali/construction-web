@@ -82,12 +82,7 @@
     color: #1c395f;
     font-size: 30px;
     display: flex;
-    /* transition: all 0.7s ease-out; */
 }
-
-/* .fsLink :hover {
-    transform: translateY(-3px);
-} */
 
 .smIcons {
     display: flex;
@@ -129,7 +124,7 @@
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 435px) {
     .footerUp {
         padding: 10px 20px;
         flex-direction: column;
