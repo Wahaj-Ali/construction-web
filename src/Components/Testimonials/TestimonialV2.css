@@ -111,6 +111,7 @@
 .testHeading h2 {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 42px;
     line-height: 42px;
