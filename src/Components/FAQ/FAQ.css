@@ -37,7 +37,8 @@
 .fQues {
     display: flex;
     align-items: center;
-    background-color: #a65445a8;
+    /* background-color: #a65445a8; */
+    background-color: #8b8589;;
     padding: 10px;
     border-left: 5px solid #17252a;
     cursor: pointer;

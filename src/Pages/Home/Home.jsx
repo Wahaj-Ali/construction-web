@@ -25,14 +25,14 @@ const Home = () => {
                 </div>
                 <p>At Fully Constructed, we're more than just builders; we're dream weavers dedicated to enhancing the beauty, functionality, and character of Long Island's homes and businesses. Our mission is simple yet profound to empower Long Island communities with exceptional construction solutions while embracing the area's unique architectural essence. With deep roots in Long Island, we understand the local market intricacies, and our community-centric approach involves active participation in local initiatives, enriching the lives of residents. We pride ourselves on craftsmanship excellence, personalized service, transparency, and unwavering commitment to your vision. Join us at Fully Constructed and experience the difference a dedicated construction partner can make. Together, we'll enrich your living spaces, bring your visions to life, and enhance the vibrant tapestry of Long Island. Expect the Unexpected with Fully Constructed. </p>
 
-                <div className="hbLogos">
+                {/* <div className="hbLogos">
                     <img className="hbLogo" src={aig} alt="AIG" />
                     <img className="hbLogo" src={aig} alt="AIG" />
                     <img className="hbLogo"src={aig} alt="AIG" />
                     <img className="hbLogo"src={aig} alt="AIG" />
                     <img className="hbLogo" src={aig} alt="AIG" />
                     <img className="hbLogo" src={aig} alt="AIG" />
-                </div>
+                </div> */}
             </div>
 
             {/* <Testimonials /> */}

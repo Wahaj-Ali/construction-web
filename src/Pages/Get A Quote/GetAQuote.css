@@ -15,7 +15,8 @@
   .getaQuoteForm {
     padding: 20px 100px;
     /* background: antiquewhite; */
-    background: linear-gradient(to left,#6a58ca,#8174c4);
+    /* background: linear-gradient(to left,#6a58ca,#8174c4); */
+    background-color: #8b8589;
     color: #fff;
     /* margin: 10px 100px; */
   }
@@ -132,8 +133,8 @@
   }
 
   .getQuoteBtn:hover {
-    background-color: #2b787a;
-    color: #def2f1;
+    background-color: #000;
+    color: #fff;
   }
   
   @media (max-width: 1024px) {
