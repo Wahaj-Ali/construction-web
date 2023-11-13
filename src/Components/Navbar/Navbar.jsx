@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../Assets/logo.png';
+// import logo from '../../Assets/logo.png';
 import { Link } from 'react-router-dom';
 import {AiOutlineDoubleRight} from 'react-icons/ai';
 import './Navbar.css';
@@ -55,7 +55,8 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="logo">
-          <Link to="/" onClick={closeMobileMenu}><img src={logo} alt="Fully Constructed" /></Link>
+          {/* <Link to="/" onClick={closeMobileMenu}><img src={logo} alt="Fully Constructed" /></Link> */}
+          Logo
         </div>
         <div className="mobile-menu-button" onClick={toggleMobileMenu}>
           <span className="menu-icon">&#9776;</span>
