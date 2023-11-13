@@ -43,7 +43,8 @@
 
 .hsSec {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1024px) { 
