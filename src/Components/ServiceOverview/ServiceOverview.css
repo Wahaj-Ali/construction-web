@@ -11,6 +11,7 @@
     color:#fff;
     position: relative;
     background: black;
+    height: 340px;
 }
 
 #nameLink {
@@ -20,8 +21,9 @@
 .sImg {
     display: flex;
     height: 250px;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
+    height: auto;
     border-radius: 10px;
     -webkit-box-shadow: 8px 14px 20px rgba(0, 0, 0, .6);
     box-shadow: 8px 14px 20px rgba(0, 0, 0, .6);
@@ -90,13 +92,13 @@
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 1024px) {
     .serviceOverview {
-        flex-direction: column;
-        height: auto;
-        width: auto;
+        width: 100%;
     }
+}
 
+@media only screen and (max-width: 430px) {
     .serviceData {
         width: auto;
         padding: 10px;
@@ -106,6 +108,4 @@
         width: auto;
         order: 1;
     }
-
-
 }
