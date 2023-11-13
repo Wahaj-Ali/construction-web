@@ -11,6 +11,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    color: #fff;
 }
 
 .fAns {
@@ -38,9 +39,9 @@
     display: flex;
     align-items: center;
     /* background-color: #a65445a8; */
-    background-color: #8b8589;;
+    background-color: #1c395f;
     padding: 10px;
-    border-left: 5px solid #17252a;
+    border-left: 5px solid #041434;
     cursor: pointer;
 }
 
@@ -50,7 +51,7 @@
 }
 
 #qIcon {
-    color: #17252a;
+    color: #d0d9e1;
 }
 
 #aIcon {

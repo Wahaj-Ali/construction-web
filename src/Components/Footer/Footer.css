@@ -23,7 +23,7 @@
 
 .socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
     text-transform: uppercase;
-    color: #5445a6;
+    color: #1c395f;
 }
 
 .socialMedia p {
@@ -50,7 +50,7 @@
 }
 
 .fLink {
-    color: #5445a6;
+    color: #1c395f;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@
 }
 
 .fsLink {
-    color: #5445a6;
+    color: #1c395f;
     font-size: 30px;
     display: flex;
     /* transition: all 0.7s ease-out; */

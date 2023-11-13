@@ -96,7 +96,7 @@
   border: none;
   padding: 15px;
   border-radius: 5px;
-  background-color: #8b8589;
+  background-color: #1c395f;
   color: #def2f1;
   font-size: 14px;
   font-weight: 600;
@@ -105,8 +105,8 @@
 }
 
 .quote-btn:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #d0d9e1;
+  color: #1c395f;
 }
 
 @media (max-width: 1024px) {

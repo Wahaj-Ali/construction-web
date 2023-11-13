@@ -1,7 +1,4 @@
 .whyChooseUs {
-    /* height: 100dvh; */
-    /* background-color: #5d5b9f; */
-    /* background-color: #2e343c; */
     padding: 20px 0;
     color: #fff;
     flex-direction: column;
@@ -15,15 +12,11 @@
   }
   
   .whyUsTitle h2 {
-    /* font-size: 40px; */
-    /* margin: 0; */
-    color: #8b8589;
+    color: #041434;
     font-family: 'Teko';
     font-weight: 600;
     font-size: 50px;
     line-height: 42px;
-    /* padding-bottom: 5px;
-    border-bottom: 2px dotted; */
   }
 
   .wcuList {
@@ -37,7 +30,7 @@
   
   .wcuListItem {
     /* width: calc(26% - 20px); */
-    background-color: #8b8589;
+    background: #1c395f;
     /* height: 225px; */
     color: #fff;
     padding: 10px;
