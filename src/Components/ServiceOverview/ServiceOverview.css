@@ -2,12 +2,8 @@
     display: flex;
     width: 45%;
     align-self: flex-start;
-    /* justify-content: space-between; */
     margin: 25px 0;
-    border-radius: 10px;
-    /* background: linear-gradient(to top,#6a58ca,#8174c4); */
-    /* background: #1c395f; */
-    /* padding: 10px; */
+    /* border-radius: 10px; */
     color:#fff;
     position: relative;
     background: black;
