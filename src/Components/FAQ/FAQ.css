@@ -21,7 +21,7 @@
     align-items: center;
     background-color: #8080801a;
     padding: 10px;
-    border-left: 5px solid #5445a6;
+    border-left: 5px solid #1c395f;
     overflow: hidden;
     transition: max-height 1.7s ease-in-out;
 }
@@ -56,5 +56,5 @@
 }
 
 #aIcon {
-    color: #5445a6;
+    color: #1c395f;
 }
