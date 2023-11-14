@@ -10,11 +10,17 @@ import floor from '../../Assets/Flooring Installation.jpg';
 import carpentry from '../../Assets/Carpentry and Trim Work.jpg';
 import AbWCU from '../../Components/AbtWCU/AbWCU';
 import Testimonials from '../../Components/Testimonials/Testimonials';
-import './Home.css';
 import TestimonialV2 from '../../Components/Testimonials/TestimonialV2';
 import InspirationGrid from '../../Components/InspirationGrid/InspirationGrid';
+import { useEffect } from 'react';
+import './Home.css';
 
 const Home = () => {
+
+    useEffect(() => {
+		document.title = 'Fully Constructed';
+	}, []);
+
     return (
         <>
             <Hero />
