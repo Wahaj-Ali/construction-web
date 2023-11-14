@@ -1,6 +1,5 @@
 import React from 'react';
 import { Hero } from '../../Components/HomeHero/Hero';
-import aig from '../../Assets/aig.png';
 import ServiceOverview from '../../Components/ServiceOverview/ServiceOverview';
 import kitchen from '../../Assets/Kitchen Remodeling.jpg';
 import bath from '../../Assets/Bathroom Remodeling.jpg';
