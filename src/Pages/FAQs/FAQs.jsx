@@ -59,7 +59,7 @@ const faqData = [
 const FAQs = () => {
 
     useEffect(() => {
-		document.title = 'FAQs -Fully Constructed';
+		document.title = 'FAQs - Fully Constructed';
 	}, []);
 
     return (

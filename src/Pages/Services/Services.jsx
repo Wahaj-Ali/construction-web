@@ -14,7 +14,7 @@ import { useEffect } from 'react';
 const Services = () => {
 
     useEffect(() => {
-		document.title = 'Services -Fully Constructed';
+		document.title = 'Services - Fully Constructed';
 	}, []);
 
     return (

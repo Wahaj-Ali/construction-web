@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 const AboutUs = () => {
 
     useEffect(() => {
-		document.title = 'About Us -Fully Constructed';
+		document.title = 'About Us - Fully Constructed';
 	}, []);
 
   return (

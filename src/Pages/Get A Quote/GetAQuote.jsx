@@ -5,7 +5,7 @@ import './GetAQuote.css';
 const GetAQuote = () => {
 
     useEffect(() => {
-        document.title = 'Get a Quote -Fully Constructed';
+        document.title = 'Get a Quote - Fully Constructed';
     }, []);
 
     const [dropdownSelectedOption, setDropdownSelectedOption] = useState('');

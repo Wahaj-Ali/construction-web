@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 const Sitemap = () => {
 
   useEffect(() => {
-		document.title = 'Sitemap -Fully Constructed';
+		document.title = 'Sitemap - Fully Constructed';
 	}, []);
 
   return (
