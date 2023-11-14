@@ -13,22 +13,22 @@ import './InspirationGrid.css';
 
 const InspirationGrid = () => {
 
-    // const [isTall, setIsTall] = useState(false);
-    // const handleResize = () => {
-    //     setIsTall(window.innerWidth < 786);
-    // };
+    const [isTall, setIsTall] = useState(false);
+    const handleResize = () => {
+        setIsTall(window.innerWidth < 786);
+    };
 
-    // useEffect(() => {
+    useEffect(() => {
      
-    //     window.addEventListener('resize', handleResize);
+        window.addEventListener('resize', handleResize);
 
-    //     handleResize();
+        handleResize();
 
 
-    //     return () => {
-    //         window.removeEventListener('resize', handleResize);
-    //     };
-    // }, []);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return (
         <>
@@ -62,7 +62,7 @@ const InspirationGrid = () => {
                     <img src={paint2} alt="Paint Model" />
                 </div>
 
-                <div >
+                <div className={isTall ? 'tall' : ''}>
                     <img src={bath1} alt="Bath Model" />
                 </div>
 
