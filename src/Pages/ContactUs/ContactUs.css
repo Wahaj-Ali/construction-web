@@ -159,4 +159,9 @@
     .contactHeading h1 {
       margin-bottom: 0;
     }
+
+    .cuIcon {
+      width: 30px;
+      height: 30px;
+    }
   }
