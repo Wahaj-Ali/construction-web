@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const TermsOfService = () => {
 
     useEffect(() => {
-		document.title = 'Terms of Services -Fully Constructed';
+		document.title = 'Privacy Policy -Fully Constructed';
 	}, []);
 
     return (
