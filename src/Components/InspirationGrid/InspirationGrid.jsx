@@ -46,27 +46,27 @@ const InspirationGrid = () => {
                     <img src={room2} alt="Room Model" />
                 </div>
 
-                <div>
-                    <img src={kitchen1} alt="Kitchen Model" />
-                </div>
-
                 <div className='tall'>
                     <img src={kitchen2} alt="Kitchen Model" />
+                </div>
+
+                <div className='wide'>
+                    <img src={kitchen1} alt="Kitchen Model" />
                 </div>
 
                 <div className='big'>
                     <img src={paint1} alt="Paint Model" />
                 </div>
 
-                <div>
+                <div className='tall'>
                     <img src={paint2} alt="Paint Model" />
                 </div>
 
-                <div className={isTall ? 'tall' : ''}>
+                <div className='big'>
                     <img src={bath1} alt="Bath Model" />
                 </div>
 
-                <div className='wide'>
+                <div className='tall'>
                     <img src={bath2} alt="Bath Model" />
                 </div>
             </div>
