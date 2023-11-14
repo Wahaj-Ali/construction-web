@@ -1,7 +1,13 @@
 import React from 'react';
 import './TermsOfService.css';
+import { useEffect } from 'react';
 
 const TermsOfService = () => {
+
+    useEffect(() => {
+		document.title = 'Terms of Services -Fully Constructed';
+	}, []);
+
     return (
         <div className='terms_of_service'>
             <h2>Copyright © Fully Constructed. All rights reserved. </h2>

@@ -14,6 +14,10 @@ const ContactUs = () => {
         }
     }, [state.succeeded]);
 
+    useEffect(() => {
+		document.title = 'Contact Us -Fully Constructed';
+	}, []);
+
     return (
         <>
             <div className='contactHeading'>

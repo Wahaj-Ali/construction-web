@@ -2,6 +2,7 @@ import React from 'react';
 import FAQ from '../../Components/FAQ/FAQ';
 import faqBg from '../../Assets/faq-bg.jpg';
 import './FAQs.css';
+import { useEffect } from 'react';
 
 const faqData = [
     {
@@ -56,6 +57,11 @@ const faqData = [
 ];
 
 const FAQs = () => {
+
+    useEffect(() => {
+		document.title = 'FAQs -Fully Constructed';
+	}, []);
+
     return (
         <>
             <div className='insuranceHero'>
