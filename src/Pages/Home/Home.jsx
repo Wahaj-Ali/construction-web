@@ -13,6 +13,7 @@ import AbWCU from '../../Components/AbtWCU/AbWCU';
 import Testimonials from '../../Components/Testimonials/Testimonials';
 import './Home.css';
 import TestimonialV2 from '../../Components/Testimonials/TestimonialV2';
+import InspirationGrid from '../../Components/InspirationGrid/InspirationGrid';
 
 const Home = () => {
     return (
@@ -58,6 +59,8 @@ const Home = () => {
 
                     <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentry-and-trimwork"/>
                 </div>
+
+                <InspirationGrid />
 
                 <AbWCU />
             </div>
