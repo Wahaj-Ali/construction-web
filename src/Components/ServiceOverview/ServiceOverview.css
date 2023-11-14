@@ -51,7 +51,7 @@
 .sHead h3 {
     align-items: center;
     display: flex;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     margin: 0;
 }
@@ -79,7 +79,8 @@
     padding: 10px 0;
     display: flex;
     align-items: center;
-    background: #d0d9e1;
+    background-color: #1c395f;
+    color: #def2f1;
     justify-content: center;
     width: 120px;
 }
