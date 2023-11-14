@@ -40,9 +40,8 @@ const Home = () => {
                     <img className="hbLogo" src={aig} alt="AIG" />
                 </div> */}
             </div>
-
-            {/* <Testimonials /> */}
-            <TestimonialV2 />
+            
+            <InspirationGrid />
 
             <div className="servicesOverview">
                 <div className="homeHeading">
@@ -64,11 +63,9 @@ const Home = () => {
 
                     <ServiceOverview sImg={carpentry} currentPage="home" sName="Carpentry and Trim Work" sDesc="Highlight your craftsmanship in custom carpentry, including trim, crown molding, and built-in cabinets." sLink="carpentry-and-trimwork"/>
                 </div>
-
-                <InspirationGrid />
-
-                <AbWCU />
             </div>
+            <TestimonialV2 />
+            <AbWCU />
         </>
     )
 }

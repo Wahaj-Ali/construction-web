@@ -1,5 +1,5 @@
 .whyChooseUs {
-    padding: 20px 0;
+    padding: 20px 100px;
     color: #fff;
     flex-direction: column;
     justify-content: space-evenly;
@@ -76,6 +76,10 @@
   }
   
   @media (max-width: 1024px) {
+    .whyChooseUs {
+      padding: 20px 80px;
+    }
+
     .wcuList {
       margin-bottom: 10px;
     }
@@ -91,9 +95,9 @@
   
   @media (max-width: 768px) {
   
-    /* .whyChooseUs {
-      padding: 0 100px;
-    } */
+    .whyChooseUs {
+      padding: 0 50px;
+    }
   
     .wcuList {
       grid-template-columns: repeat(2, 1fr);
@@ -116,7 +120,7 @@
     }
   
     .whyChooseUs {
-      padding: 20px 0;
+      padding: 20px;
     }
   
     .wcuListItem h4 {

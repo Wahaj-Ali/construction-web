@@ -26,33 +26,39 @@
 
 .joinUs {
     background-color: #1c395f;
-    height: 22vh;
+    /* height: 22vh; */
+
+    align-self: flex-start;
+    display: flex;
+    height: 340px;
+    position: relative;
 }
 
 .joinUs img {
     width: 100%;
-    height: inherit;
+    height: auto;
     object-fit: cover;
     opacity: 0.5;
-    position: absolute;
 }
 
 .joinUs p {
-    position: relative;
-    padding: 50px 100px;
     line-height: 27px;
     color: #fff;
     font-size: 24px;
     font-weight: 600;
     margin: 0;
     text-shadow: 3px 3px 4px #000;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    padding: 0 50px;
 }
 
 @media (max-width: 1024px) {
-    .joinUs {
-        height: 35vh;
-    }
-
     .aboutSec {
         padding: 0 80px;
     }
@@ -64,26 +70,19 @@
     }
 
     .joinUs p {
-        padding: 20px 50px;
+        text-align: center;
     }
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 435px) {
     .aboutSec {
         padding: 0 20px;
     }
 
-    .joinUs {
-        height: auto;
-    }
-
     .joinUs p {
-        padding: 25px 10px;
         font-size: 18px;
+        padding: 15px;
     }
 
-    .joinUs img {
-        height: 39vh;
-    }
 }
