@@ -64,7 +64,7 @@
 
 .quote p {
   color: #212833;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   margin: 0;
   text-align: left;
@@ -110,7 +110,7 @@
 
 .testHeading h2 {
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     text-transform: uppercase;
     font-weight: 600;
     font-size: 42px;

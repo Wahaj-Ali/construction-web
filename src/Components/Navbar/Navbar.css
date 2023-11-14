@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: #fff;
-  font-family: Maison Neue Bold, sans-serif;
+  /* font-family: Maison Neue Bold, sans-serif; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -99,6 +99,7 @@
   border-radius: 5px;
   background-color: #1c395f;
   color: #def2f1;
+  font-family: 'Gotham';
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;

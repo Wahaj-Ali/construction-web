@@ -1,8 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Teko:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/fonts/Gotham\ Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/fonts/Gotham\ Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/public/fonts/Gotham\ Medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/public/fonts/Gotham\ Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  /* font-family: 'Teko', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Gotham';
+}
+
+p {
+  font-weight: 300;
 }

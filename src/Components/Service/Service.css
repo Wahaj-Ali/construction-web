@@ -1,7 +1,7 @@
 .serviceIntro {
     padding: 10px 100px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     color: #1c395f;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .serviceFeature {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     width: 50%;
 }
 
@@ -42,6 +42,10 @@
     color: #041434;
     padding: 0 115px;
     font-size: 24px;
+}
+
+.sEnding p {
+    font-weight: 600;
 }
 
 .heading {

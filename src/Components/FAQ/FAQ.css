@@ -1,6 +1,6 @@
 .singleFAQ {
     margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .singleFAQ h3, .singleFAQ p{
@@ -28,7 +28,7 @@
 
 .fAns p {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .fAns.open {
@@ -49,6 +49,7 @@
 #qIcon, #aIcon {
     font-size: 40px;
     padding-right: 10px;
+    font-weight: 600;
 }
 
 #qIcon {

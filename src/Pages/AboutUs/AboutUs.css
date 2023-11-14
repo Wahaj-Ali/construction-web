@@ -17,11 +17,11 @@
 }
 
 .aboutSecText {
-    font-weight: 500;
+    font-weight: 300;
     color: #17252a;
     font-size: 17px;
     line-height: 27px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .joinUs {
@@ -43,6 +43,7 @@
     line-height: 27px;
     color: #fff;
     font-size: 24px;
+    font-weight: 600;
     margin: 0;
     text-shadow: 3px 3px 4px #000;
 }
