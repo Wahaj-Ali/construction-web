@@ -26,10 +26,6 @@
     opacity: 0.5;
 }
 
-/* .serviceOverview:nth-child(odd) .sImg {
-    order: 1;
-} */
-
 .sImg img {
     width: 100%;
     height: 100%;
@@ -101,8 +97,4 @@
         padding: 10px;
     }
 
-    .sImg {
-        width: auto;
-        order: 1;
-    }
 }
