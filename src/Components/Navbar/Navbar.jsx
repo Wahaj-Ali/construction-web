@@ -56,7 +56,7 @@ export const Navbar = () => {
       <div className="nav-container">
         <div className="logo">
           {/* <Link to="/" onClick={closeMobileMenu}><img src={logo} alt="Fully Constructed" /></Link> */}
-          Logo
+          <Link to="/" onClick={closeMobileMenu}>Logo</Link>
         </div>
         <div className="mobile-menu-button" onClick={toggleMobileMenu}>
           <span className="menu-icon">&#9776;</span>
