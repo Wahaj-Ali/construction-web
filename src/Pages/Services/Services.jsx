@@ -9,8 +9,14 @@ import carpentry from '../../Assets/Carpentry and Trim Work.jpg';
 import ServiceOverview from '../../Components/ServiceOverview/ServiceOverview';
 import servicesBg from '../../Assets/services-bg.jpg';
 import './Services.css';
+import { useEffect } from 'react';
 
 const Services = () => {
+
+    useEffect(() => {
+		document.title = 'Services - Fully Constructed';
+	}, []);
+
     return (
         <>
             <div className='insuranceHero'>

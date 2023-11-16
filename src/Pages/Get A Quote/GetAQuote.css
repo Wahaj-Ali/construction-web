@@ -9,15 +9,12 @@
     font-size: 36px;
     align-self: center;
     padding-bottom: 5px;
-    /* border-bottom: 3px solid #f0d126; */
   }
   
   .getaQuoteForm {
     padding: 20px 100px;
-    /* background: antiquewhite; */
-    background: linear-gradient(to left,#6a58ca,#8174c4);
+    background-color: #1c395f;
     color: #fff;
-    /* margin: 10px 100px; */
   }
   
   .contactInfo {
@@ -33,8 +30,6 @@
   
   .contactInfo label {
     font-weight: 800;
-    /* padding-left: 5px;
-    border-left: 3px solid red; */
   }
   
   .contactInfo input, #getQuoteTextArea {
@@ -48,7 +43,6 @@
   #dropdown,
   textarea {
     font-size: 1rem;
-    font-family: "Prata", Sans-serif;
   }
   
   .selectorsDiv {
@@ -68,8 +62,6 @@
   
   label {
     font-weight: 800;
-    /* padding-left: 5px;
-    border-left: 3px solid red; */
   }
   
   #dropdown {
@@ -107,18 +99,10 @@
     width: 20%;
   }
   
-  /* #getQuoteTextArea {
-    width: 98.5%;
-  } */
-  
   textarea::placeholder,
   input::placeholder {
     font-style: italic;
   }
-  
-  /* .getQuoteStyle {
-    height: auto;
-  } */
     
   .success-message {
     display: flex;
@@ -132,8 +116,8 @@
   }
 
   .getQuoteBtn:hover {
-    background-color: #2b787a;
-    color: #def2f1;
+    background-color: #000;
+    color: #fff;
   }
   
   @media (max-width: 1024px) {
@@ -199,7 +183,7 @@
     }
   }
   
-  @media (max-width: 430px) {
+  @media (max-width: 435px) {
     .getaQuoteForm {
       margin: 10px 20px;
       padding: 20px 20px;
@@ -216,5 +200,13 @@
   
     .address-inputs input {
       width: 98.5%;
+    }
+
+    .contactInfo input {
+      width: auto;
+    }
+
+    #getQuoteTextArea  {
+      width: 95%;
     }
   }

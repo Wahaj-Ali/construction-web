@@ -10,9 +10,9 @@
 }
 
 .contactHeading h1 {
-  /* margin: 0; */
-  color: #a65445;
-  font-family: 'Poppins', sans-serif;
+  /* color: #a65445; */
+  color: #041434;
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 600;
   font-size: 50px;
   line-height: 42px;
@@ -41,10 +41,12 @@
     padding: 10px;
     border: 2px solid;
     border-radius: 50%;
-    background-color: #5445a6; ;
+    /* background-color: #5445a6; */
+    background-color: #1c395f;
 }
 
 .cuIcon {
+  color: #fff;
     align-self: center;
     border-radius: 50%;
     display: flex;
@@ -58,6 +60,10 @@
     margin: 0;
 }
 
+/* .ciText h3 {
+  font-family: 'Open Sans', sans-serif;
+} */
+
 .form {
     width: 45%;
     display: flex;
@@ -66,7 +72,8 @@
     box-shadow: 4px 0px 10px -2px rgba(33, 40, 51, 0.6),
                -4px 0px 10px -2px rgba(33, 40, 51, 0.6);
     
-    background-color: #5445a6;
+    /* background-color: #5445a6; */
+    background-color: #1c395f;
     border-radius: 10px;
   }
   
@@ -109,11 +116,12 @@
   }
   
   .contactBtn {
-    /* background-color: #fff;
-    color: #0f4d92; */
+    background-color: #fff;
+    color: #000;
     font-weight: 600;
+    box-shadow: 8px 14px 20px rgba(0, 0, 0, .6);
   }
-  
+
   .contactFormLabel {
     border: none;
     display: flex;
@@ -132,7 +140,7 @@
     }
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 435px) {
     .formSec {
       flex-direction: column;
       padding: 20px 20px;
@@ -150,5 +158,10 @@
 
     .contactHeading h1 {
       margin-bottom: 0;
+    }
+
+    .cuIcon {
+      width: 30px;
+      height: 30px;
     }
   }

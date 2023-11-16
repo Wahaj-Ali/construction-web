@@ -2,8 +2,14 @@ import React from 'react'
 import AboutHero from '../../Components/AboutHero/AboutHero';
 import joinBg from '../../Assets/join-bg.jpg';
 import './AboutUs.css';
+import { useEffect } from 'react';
 
 const AboutUs = () => {
+
+    useEffect(() => {
+		document.title = 'About Us - Fully Constructed';
+	}, []);
+
   return (
     <>
         <AboutHero />

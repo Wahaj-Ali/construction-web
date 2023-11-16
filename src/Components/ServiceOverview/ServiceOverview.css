@@ -1,13 +1,13 @@
 .serviceOverview {
     display: flex;
-    width: 100%;
+    width: 48%;
     align-self: flex-start;
-    justify-content: space-between;
     margin: 25px 0;
-    border-radius: 10px;
-    background: linear-gradient(to top,#6a58ca,#8174c4);
-    padding: 10px;
+    /* border-radius: 10px; */
     color:#fff;
+    position: relative;
+    background: black;
+    height: 340px;
 }
 
 #nameLink {
@@ -17,16 +17,13 @@
 .sImg {
     display: flex;
     height: 250px;
-    overflow: hidden;
-    position: relative;
-    width: 46%;
+    /* overflow: hidden; */
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     -webkit-box-shadow: 8px 14px 20px rgba(0, 0, 0, .6);
     box-shadow: 8px 14px 20px rgba(0, 0, 0, .6);
-}
-
-.serviceOverview:nth-child(odd) .sImg {
-    order: 1;
+    opacity: 0.5;
 }
 
 .sImg img {
@@ -41,7 +38,10 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    width: 45%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    padding: 0 20px;
 }
 
 .sHead h3 {
@@ -57,9 +57,9 @@
 }
 
 .sDesc p {
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
-
+    font-size: 18px;
     line-height: 1.5;
     text-align: justify;
 }
@@ -75,28 +75,26 @@
     padding: 10px 0;
     display: flex;
     align-items: center;
+    background-color: #1c395f;
+    color: #def2f1;
+    justify-content: center;
+    width: 120px;
 }
 
 .seeMoreBtn:hover {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 1024px) {
     .serviceOverview {
-        flex-direction: column;
-        height: auto;
-        width: auto;
+        width: 100%;
     }
+}
 
+@media only screen and (max-width: 430px) {
     .serviceData {
         width: auto;
         padding: 10px;
     }
-
-    .sImg {
-        width: auto;
-        order: 1;
-    }
-
 
 }

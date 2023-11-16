@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
 .homeAbout {
     padding: 0 100px;
 }
@@ -9,23 +11,12 @@
 }
 
 .homeHeading h2 {
-    /* font-weight: 700;
-    color: #2b7a78;
-    font-size: 28px;
-    line-height: 32px;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px dotted; */
-
-    /* margin-bottom: 0; */
-    color: #a65445;
-    font-family: 'Poppins', sans-serif;
+    color: #041434;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 600;
     font-size: 42px;
     line-height: 42px;
-    /* padding-bottom: 5px; */
-    /* border-bottom: 2px dotted; */
+    text-transform: uppercase;
 }
 
 .homeAbout p {
@@ -33,7 +24,8 @@
     color: #17252a;
     font-size: 18px;
     line-height: 1.8;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
     text-align: center;
 }
 
@@ -52,7 +44,8 @@
 
 .hsSec {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media only screen and (max-width: 1024px) { 
@@ -80,7 +73,7 @@
     }
 }
 
-@media only screen and (max-width: 430px) { 
+@media only screen and (max-width: 435px) { 
     .homeAbout {
         padding: 0 20px;
     }
@@ -90,6 +83,7 @@
         text-align: center;
         line-height: normal;
         margin-bottom: 0;
+        text-align: center;
     }
 
     .homeAbout p {

@@ -1,5 +1,6 @@
 .singleFAQ {
     margin-bottom: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .singleFAQ h3, .singleFAQ p{
@@ -11,6 +12,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    color: #fff;
 }
 
 .fAns {
@@ -19,14 +21,14 @@
     align-items: center;
     background-color: #8080801a;
     padding: 10px;
-    border-left: 5px solid #5445a6;
+    border-left: 5px solid #1c395f;
     overflow: hidden;
     transition: max-height 1.7s ease-in-out;
 }
 
 .fAns p {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 .fAns.open {
@@ -37,21 +39,23 @@
 .fQues {
     display: flex;
     align-items: center;
-    background-color: #a65445a8;
+    /* background-color: #a65445a8; */
+    background-color: #1c395f;
     padding: 10px;
-    border-left: 5px solid #17252a;
+    border-left: 5px solid #041434;
     cursor: pointer;
 }
 
 #qIcon, #aIcon {
     font-size: 40px;
     padding-right: 10px;
+    font-weight: 600;
 }
 
 #qIcon {
-    color: #17252a;
+    color: #d0d9e1;
 }
 
 #aIcon {
-    color: #5445a6;
+    color: #1c395f;
 }

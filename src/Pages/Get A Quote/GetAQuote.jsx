@@ -5,57 +5,57 @@ import './GetAQuote.css';
 const GetAQuote = () => {
 
     useEffect(() => {
-		document.title = 'Get a Quote -Instantly Insured';
-	}, []);
+        document.title = 'Get a Quote - Fully Constructed';
+    }, []);
 
-	const [dropdownSelectedOption, setDropdownSelectedOption] = useState('');
-	const [radioSelectedOption, setRadioSelectedOption] = useState('');
+    const [dropdownSelectedOption, setDropdownSelectedOption] = useState('');
+    const [radioSelectedOption, setRadioSelectedOption] = useState('');
 
-	const handleDropdownChange = (event) => {
-		setDropdownSelectedOption(event.target.value);
-	};
+    const handleDropdownChange = (event) => {
+        setDropdownSelectedOption(event.target.value);
+    };
 
-	const handleRadioChange = (event) => {
-		setRadioSelectedOption(event.target.value);
-	};
+    const handleRadioChange = (event) => {
+        setRadioSelectedOption(event.target.value);
+    };
 
-	//Phone number formatiting
-	const [phoneNumber, setPhoneNumber] = useState('');
-	// const [submitted, setSubmitted] = useState(false);
+    //Phone number formatiting
+    const [phoneNumber, setPhoneNumber] = useState('');
+    // const [submitted, setSubmitted] = useState(false);
 
-	const handlePhoneNumberChange = (event) => {
-		const input = event.target.value;
-		const formattedInput = input.replace(/\D/g, ''); // Remove non-digit characters
+    const handlePhoneNumberChange = (event) => {
+        const input = event.target.value;
+        const formattedInput = input.replace(/\D/g, ''); // Remove non-digit characters
 
-		if (formattedInput.length <= 10) {
-			const formattedPhoneNumber = formattedInput.replace(/(\d{3})(\d{3})(\d{4})/, '$1 $2 $3');
+        if (formattedInput.length <= 10) {
+            const formattedPhoneNumber = formattedInput.replace(/(\d{3})(\d{3})(\d{4})/, '$1 $2 $3');
 
-			setPhoneNumber(formattedPhoneNumber);
-		}
-	};
+            setPhoneNumber(formattedPhoneNumber);
+        }
+    };
 
 
-	//ZIP code formatting
+    //ZIP code formatting
 
-	const [zipCode, setZipCode] = useState('');
+    const [zipCode, setZipCode] = useState('');
 
-	const handleZipCodeChange = (event) => {
-		const input = event.target.value;
-		const formattedInput = input.replace(/\D/g, ''); // Remove non-digit characters
+    const handleZipCodeChange = (event) => {
+        const input = event.target.value;
+        const formattedInput = input.replace(/\D/g, ''); // Remove non-digit characters
 
-		if (formattedInput.length <= 5) {
-			// Limit to 5 digits for zip code
-			setZipCode(formattedInput);
-		}
-	};
+        if (formattedInput.length <= 5) {
+            // Limit to 5 digits for zip code
+            setZipCode(formattedInput);
+        }
+    };
 
-	const [state, handleSubmit] = useForm('mqkvnrzl');
+    const [state, handleSubmit] = useForm('mqkvnrzl');
 
-	useEffect(() => {
-		if (state.succeeded) {
-			window.location.href = '/thanks'; 
-		}
-	  }, [state.succeeded]);
+    useEffect(() => {
+        if (state.succeeded) {
+            window.location.href = '/thanks';
+        }
+    }, [state.succeeded]);
 
     return (
         <>
@@ -104,6 +104,7 @@ const GetAQuote = () => {
                         <div className="dropDown-selector">
                             <label htmlFor="dropdown" >Service Type</label>
                             <select id="dropdown" name="_Insurance Type" value={dropdownSelectedOption} onChange={handleDropdownChange}>
+                                <option value="" disabled>Select</option>
                                 <option value="Kitchen Remodeling">Kitchen Remodeling</option>
                                 <option value="Bathroom Remodeling">Bathroom Remodeling</option>
                                 <option value="Basement Finishing">Basement Finishing</option>

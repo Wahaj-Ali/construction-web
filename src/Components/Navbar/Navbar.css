@@ -2,14 +2,13 @@
   height: 95px;
   display: flex;
   justify-content: center;
-  background-color: #5445a6;
-  /* background-color: #88BDBC; */
-  font-family: Maison Neue Bold, sans-serif;
+  background-color: #fff;
+  /* font-family: Maison Neue Bold, sans-serif; */
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 5;
-  /* border-bottom: 1px solid #354256; */
+  box-shadow: 3px 7px 15px rgba(0,0,0,.1);
 }
 
 .nav-container {
@@ -44,9 +43,10 @@
 
 .nav-item a {
   text-decoration: none;
-  color: #fff;
-  font: normal 500 21px / 25px "Teko", Helvetica, Arial, Verdana, sans-serif;
-  /* font: normal 500 18px / 25px "Poppins", sans-serif; */
+  color: #000;
+  /* font: normal 500 21px / 25px "Teko", Helvetica, Arial, Verdana, sans-serif; */
+  font-size: 18px;
+  font-weight: 700;
   transition: all 0.3s ease-out;
   text-transform: uppercase;
 }
@@ -59,6 +59,7 @@
   display: flex;
   align-items: center;
   margin-right: 20px;
+  color: #000;
 }
 
 .logo img {
@@ -96,8 +97,9 @@
   border: none;
   padding: 15px;
   border-radius: 5px;
-  background-color: #a65445;
+  background-color: #1c395f;
   color: #def2f1;
+  font-family: 'Gotham';
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -105,8 +107,8 @@
 }
 
 .quote-btn:hover {
-  background-color: #def2f1;
-  color: #a65445;
+  background-color: #d0d9e1;
+  color: #1c395f;
 }
 
 @media (max-width: 1024px) {

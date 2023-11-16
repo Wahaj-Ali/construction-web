@@ -1,8 +1,5 @@
 .whyChooseUs {
-    /* height: 100dvh; */
-    /* background-color: #5d5b9f; */
-    /* background-color: #2e343c; */
-    padding: 20px 0;
+    padding: 20px 100px;
     color: #fff;
     flex-direction: column;
     justify-content: space-evenly;
@@ -15,15 +12,12 @@
   }
   
   .whyUsTitle h2 {
-    /* font-size: 40px; */
-    /* margin: 0; */
-    color: #a65445;
-    font-family: 'Teko';
+    color: #041434;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 600;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 42px;
-    /* padding-bottom: 5px;
-    border-bottom: 2px dotted; */
+    text-transform: uppercase;
   }
 
   .wcuList {
@@ -37,7 +31,7 @@
   
   .wcuListItem {
     /* width: calc(26% - 20px); */
-    background-color: #5445a6;
+    background: #1c395f;
     /* height: 225px; */
     color: #fff;
     padding: 10px;
@@ -65,14 +59,15 @@
   .wcuListItem p {
     font-size: 16px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* font-family: 'Poppins', sans-serif; */
   }
   
   .icon {
     align-self: center;
     /* background-color: bisque; */
     border-radius: 50%;
-    background-color: #DDD4BC;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     width: 50px;
@@ -81,11 +76,10 @@
   }
   
   @media (max-width: 1024px) {
-    /* .whyChooseUs {
-      height: auto;
+    .whyChooseUs {
       padding: 20px 80px;
-    } */
-  
+    }
+
     .wcuList {
       margin-bottom: 10px;
     }
@@ -101,9 +95,9 @@
   
   @media (max-width: 768px) {
   
-    /* .whyChooseUs {
-      padding: 0 100px;
-    } */
+    .whyChooseUs {
+      padding: 0 50px;
+    }
   
     .wcuList {
       grid-template-columns: repeat(2, 1fr);
@@ -126,7 +120,7 @@
     }
   
     .whyChooseUs {
-      padding: 20px 0;
+      padding: 20px;
     }
   
     .wcuListItem h4 {
