@@ -1,12 +1,38 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BiMap, BiSolidPhoneCall } from 'react-icons/bi';
 import { HiOutlineMail } from 'react-icons/hi';
 import { useForm } from '@formspree/react';
 import './ContactUs.css';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const ContactUs = () => {
 
     const [state, handleSubmit] = useForm('mzblonpk');
+    const [isPhoneVerified, setIsPhoneVerified] = useState(false);
+    const [isEmailVerified, setIsEmailVerified] = useState(false);
+    const [showRecaptchaModal, setShowRecaptchaModal] = useState(false);
+    const [recaptchaType, setRecaptchaType] = useState('');
+
+    const handleShowPhoneNumberClick = () => {
+        setRecaptchaType('phone');
+        setShowRecaptchaModal(true);
+    };
+
+    const handleShowEmailClick = () => {
+        setRecaptchaType('email');
+        setShowRecaptchaModal(true);
+    };
+
+    const handleRecaptchaChange = (value) => {
+        if (value) {
+            if (recaptchaType === 'phone') {
+                setIsPhoneVerified(true);
+            } else if (recaptchaType === 'email') {
+                setIsEmailVerified(true);
+            }
+            setShowRecaptchaModal(false); // Close modal after verification
+        }
+    };
 
     useEffect(() => {
         if (state.succeeded) {
@@ -15,8 +41,8 @@ const ContactUs = () => {
     }, [state.succeeded]);
 
     useEffect(() => {
-		document.title = 'Contact Us - Fully Constructed';
-	}, []);
+        document.title = 'Contact Us - Fully Constructed';
+    }, []);
 
     return (
         <>
@@ -43,7 +69,17 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
-                            <p><a className='fsiLink' href="mailto:zaheer@fullyconstructed.com">zaheer@fullyconstructed.com</a></p>
+                            {/* <p><a className='fsiLink' href="mailto:zaheer@fullyconstructed.com">zaheer@fullyconstructed.com</a></p> */}
+                            {isEmailVerified ? (
+                                <p><a className='fsiLink' href="mailto:zaheer@fullyconstructed.com">zaheer@fullyconstructed.com</a></p>
+                            ) : (
+                                <button
+                                    onClick={handleShowEmailClick}
+                                    style={{ background: 'none', border: 'none', color: '#007bff', cursor: 'pointer', padding: '0', fontSize: '14px', color: 'black' }}
+                                >
+                                    Show Email
+                                </button>
+                            )}
                         </div>
                     </div>
 
@@ -53,7 +89,19 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Phone</h3>
-                            <a className='fsiLink' href="tel:516-587-0000">516-587-0000</a>
+                            {/* <a className='fsiLink' href="tel:516-587-0000">516-587-0000</a> */}
+                            {isPhoneVerified ? (
+                                <p style={{ fontSize: '14px', margin: '0' }}>
+                                    <a href="tel:516-587-0000" style={{ color: '#007bff', textDecoration: 'none' }}>516-587-0000</a>
+                                </p>
+                            ) : (
+                                <button
+                                    onClick={handleShowPhoneNumberClick}
+                                    style={{ background: 'none', border: 'none', color: '#007bff', cursor: 'pointer', padding: '0', fontSize: '14px', color: 'black' }}
+                                >
+                                    Show Phone Number
+                                </button>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -69,7 +117,22 @@ const ContactUs = () => {
                 </form>
             </div>
 
-
+            {showRecaptchaModal && (
+                <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(5px)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000 }}>
+                    <div style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
+                        <ReCAPTCHA
+                            sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                            onChange={handleRecaptchaChange}
+                        />
+                        <button
+                            onClick={() => setShowRecaptchaModal(false)}
+                            style={{ marginTop: '10px', padding: '8px 16px', backgroundColor: '#333', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
         </>
 
     )
