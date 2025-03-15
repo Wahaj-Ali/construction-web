@@ -49,13 +49,13 @@ const Home = () => {
                 </div>
 
                 <div className="hsSec">
-                    <ServiceOverview sImg={kitchen} currentPage="home" sName="Kitchen Remodeling" sDesc="Showcase your expertise in transforming kitchens, including cabinet installation, countertop upgrades, and layout redesigns." sLink="kitchen-remodeling" />
+                    {/* <ServiceOverview sImg={kitchen} currentPage="home" sName="Kitchen Remodeling" sDesc="Showcase your expertise in transforming kitchens, including cabinet installation, countertop upgrades, and layout redesigns." sLink="kitchen-remodeling" />
 
                     <ServiceOverview sImg={bath} currentPage="home" sName="Bathroom Remodeling" sDesc="Highlight your ability to create beautiful and functional bathrooms through services like tile installation, fixture upgrades, and layout improvements." sLink="bathroom-remodeling"/>
 
                     <ServiceOverview sImg={basement} currentPage="home" sName="Basement Finishing" sDesc="Promote your skills in turning unfinished basements into functional living spaces, such as recreation rooms, home offices, or additional bedrooms." sLink="basement-finishing"/>
 
-                    <ServiceOverview sImg={room} currentPage="home" sName="Room Additions" sDesc="Emphasize your ability to expand homes by adding new rooms, whether it's a sunroom, a family room, or an extra bedroom." sLink="room-additions" />
+                    <ServiceOverview sImg={room} currentPage="home" sName="Room Additions" sDesc="Emphasize your ability to expand homes by adding new rooms, whether it's a sunroom, a family room, or an extra bedroom." sLink="room-additions" /> */}
 
                     <ServiceOverview sImg={interior} currentPage="home" sName="Interior Painting" sDesc="Offer interior painting services to refresh and update the look of a home." sLink="interior-painting"/>
 

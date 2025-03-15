@@ -43,7 +43,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Email</h3>
-                            <p><a className='fsiLink' href="mailto:gc@fullyconstructed.com">gc@fullyconstructed.com</a></p>
+                            <p><a className='fsiLink' href="mailto:zaheer@fullyconstructed.com">zaheer@fullyconstructed.com</a></p>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const ContactUs = () => {
                         </div>
                         <div className="ciText">
                             <h3>Phone</h3>
-                            <a className='fsiLink' href="tel:(516) 200-4649">(516) 200-4649</a>
+                            <a className='fsiLink' href="tel:516-587-0000">516-587-0000</a>
                         </div>
                     </div>
                 </div>
