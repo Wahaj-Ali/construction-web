@@ -121,7 +121,7 @@ const ContactUs = () => {
                 <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(5px)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 1000 }}>
                     <div style={{ backgroundColor: '#fff', padding: '20px', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
                         <ReCAPTCHA
-                            sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                            sitekey="6LdpmPUqAAAAAE18ITh8IZOhgj8b7psn3M_a-gg3"
                             onChange={handleRecaptchaChange}
                         />
                         <button
