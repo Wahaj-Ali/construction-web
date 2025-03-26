@@ -87,7 +87,7 @@
     }
   }
   
-  @media only screen and (max-width: 430px) {
+  @media only screen and (max-width: 460px) {
     .hero {
       height: 85vh;
     }

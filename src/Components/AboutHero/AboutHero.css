@@ -62,7 +62,7 @@
     }
   }
   
-  @media only screen and (max-width: 430px) { 
+  @media only screen and (max-width: 460px) { 
     .insuranceHeroDesc h1 {
       font-size: 2rem;
     }
