@@ -20,7 +20,7 @@
     }
   }
   
-  @media (max-width: 430px) {
+  @media (max-width: 460px) {
     .terms_of_service {
       padding: 0 20px;
     }
