@@ -1,0 +1,114 @@
+ 
+  .hero {
+    /* background: linear-gradient(90deg,#000 0,transparent 11.5%),linear-gradient(270deg,#000 0,#858181 11.5%); */
+    background: linear-gradient(90deg,#000 0,black 11.5%),linear-gradient(270deg,#000 0,#000000 11.5%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px;
+  }
+  
+  .heroDesc{
+    position: absolute;
+    padding: 0 75px;
+    top: 15%;
+    width: 50%;
+    overflow: auto;
+    max-height: 100%;
+  }
+  
+  .heroTitle {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+    /* color: #4F4A41; */
+    /* text-shadow: 3px 3px 4px #000; */
+  }
+  
+  .heroSubTitle {
+    font-weight: 600;
+    /* line-height: 2rem; */
+    font-size: 2.2rem;
+    color: #def2f1;
+  }
+  
+  .heroImg {
+    /* width: 100%;
+    height: 100dvh;
+    opacity: 0.4; */
+  
+    /* position: fixed; */
+    /* top: 10%; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    object-position: top;
+    transform: scaleX(-1);
+    /* z-index: -1; */
+  }
+  
+  @media only screen and (max-width: 1025px) { 
+    .heroDesc{
+      padding: 0 100px;
+    }
+  
+    .heroTitle {
+      font-size: 2.8rem !important;
+      line-height: 2.8rem;
+    }
+  
+    .heroSubTitle {
+      font-size: 1.6rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) { 
+    .heroDesc{
+      padding: 0;
+      /* width: 85%; */
+      left: 10%;
+      /* top: 30%; */
+    }
+  
+    .heroTitle {
+      font-size: 2.2rem !important;
+      line-height: 2.2rem;
+    }
+  
+    .quote-btn.heroBtn {
+      right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .hero {
+      height: 85vh;
+    }
+  
+    .heroDesc{
+      left: 5%;
+      display: flex;
+      flex-direction: column;
+      width: 72%;
+      top: 22%;
+    }
+  
+    .heroTitle {
+      font-size: 2rem !important;
+    }
+  
+    .heroSubTitle {
+      font-size: 1.4rem !important;
+    }
+  
+    .heroImg {
+      object-position: 25%;
+    }
+  }

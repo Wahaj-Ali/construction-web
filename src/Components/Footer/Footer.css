@@ -1,0 +1,152 @@
+.footer {
+    background-color: #fff;
+    box-shadow: 3px -7px 15px rgba(0,0,0,.1);
+}
+
+.footerUp {
+    display: flex;
+    padding: 10px 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.socialMedia h2, .fMenu h2, .fContactInfo h2, .business h2 {
+    text-transform: uppercase;
+    color: #1c395f;
+}
+
+.socialMedia p {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hours p {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fLink {
+    color: #1c395f;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.fLink:hover {
+    text-decoration: underline;
+}
+
+.pri:hover {
+    text-decoration: underline;
+}
+
+.fContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fContacts p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 300;
+}
+
+.fsLink {
+    color: #1c395f;
+    font-size: 30px;
+    display: flex;
+}
+
+.smIcons {
+    display: flex;
+    gap: 10px;
+    align-self: end;
+}
+
+.footerDown {
+    border-top: 1px solid;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacyLinks {
+    display: flex;
+    gap: 15px;
+}
+
+.fsiLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+  }
+
+@media (max-width: 1024px) {
+    .footerUp, .footerDown, .socialMedia {
+        padding: 20px 80px;
+    }
+}
+
+@media (max-width: 786px) {
+    .footerUp, .footerDown, .socialMedia {
+        padding: 20px 50px;
+    }
+
+    .fContactInfo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 435px) {
+    .footerUp {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .footerDown {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+
+    .socialMedia {
+        padding: 10px 20px;
+    }
+
+    .fContactInfo {
+        width: auto;
+    }
+
+    .smIcons {
+        align-self: center;
+        margin-top: 20px;
+    }
+}

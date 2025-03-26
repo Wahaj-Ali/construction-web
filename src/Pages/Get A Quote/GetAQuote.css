@@ -1,0 +1,212 @@
+.getAQuote {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    background-color: #def2f1;
+  }
+  
+  .getAQuote h1 {
+    font-size: 36px;
+    align-self: center;
+    padding-bottom: 5px;
+  }
+  
+  .getaQuoteForm {
+    padding: 20px 100px;
+    background-color: #1c395f;
+    color: #fff;
+  }
+  
+  .contactInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+  }
+  
+  .contactInfo label {
+    font-weight: 800;
+  }
+  
+  .contactInfo input, #getQuoteTextArea {
+    width: 98.5%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  label,
+  input,
+  #dropdown,
+  textarea {
+    font-size: 1rem;
+  }
+  
+  .selectorsDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+  }
+  
+  .dropDown-selector {
+    display: flex;
+    width: 40%;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  label {
+    font-weight: 800;
+  }
+  
+  #dropdown {
+    width: 200px;
+    padding: 3px;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+  
+  .radio-selector {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .radio {
+    display: flex;
+    align-items: baseline;
+    font-weight: 400;
+    border: none;
+  }
+  
+  .textArea {
+    width: 100%;
+  }
+  
+  
+  .address-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .address-inputs input {
+    width: 20%;
+  }
+  
+  textarea::placeholder,
+  input::placeholder {
+    font-style: italic;
+  }
+    
+  .success-message {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: antiquewhite;
+    width: 80%;
+    font-size: 24px;
+  }
+
+  .getQuoteBtn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  @media (max-width: 1024px) {
+    .getaQuoteForm {
+      padding: 10px 80px;
+    }
+  
+    .getAQuote h1 {
+      font-size: 28px;
+    }
+  
+    label,
+    input,
+    textarea,
+    #dropdown {
+      font-size: 1rem;
+    }
+  
+    .dropDown-selector {
+      align-items: center;
+    }
+  
+    .getQuoteStyle .wcuList .wcuListItem h4{
+      font-size: 16px;
+    }
+    .success-message {
+      top: 18%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .getaQuoteForm {
+      padding: 10px 50px;
+    }
+  
+    .selectorsDiv {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .getAQuote h1 {
+      font-size: 22px;
+    }
+  
+    .dropDown-selector,
+    .radio-selector {
+      width: auto;
+    }
+  
+    label,
+    input,
+    textarea,
+    #dropdown {
+      font-size: 0.8rem;
+    }
+  
+    .getQuoteStyle .wcuList {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .getQuoteStyle .wcuList .wcuListItem {
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 435px) {
+    .getaQuoteForm {
+      margin: 10px 20px;
+      padding: 20px 20px;
+    }
+  
+    .getAQuote h1 {
+      font-size: 1.2rem;
+    }
+  
+    .address-inputs {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .address-inputs input {
+      width: 98.5%;
+    }
+
+    .contactInfo input {
+      width: auto;
+    }
+
+    #getQuoteTextArea  {
+      width: 95%;
+    }
+  }

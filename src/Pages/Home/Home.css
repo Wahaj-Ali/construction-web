@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+.homeAbout {
+    padding: 0 100px;
+}
+
+.homeHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeHeading h2 {
+    color: #041434;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.homeAbout p {
+    font-weight: 600;
+    color: #17252a;
+    font-size: 18px;
+    line-height: 1.8;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    text-align: center;
+}
+
+.hbLogos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.servicesOverview {
+    /* background-color: #def2f1; */
+    padding: 20px 100px;
+    margin-top: 20px;
+}
+
+.hsSec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1024px) { 
+    .homeAbout {
+        padding: 0 80px;
+    }
+
+    .servicesOverview {
+        padding: 20px 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .homeAbout {
+        padding: 0 50px;
+    }
+
+    .servicesOverview {
+        padding: 20px 50px;
+    }
+
+    .hbLogo {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 435px) { 
+    .homeAbout {
+        padding: 0 20px;
+    }
+
+    .homeHeading h2 {
+        font-size: 36px;
+        text-align: center;
+        line-height: normal;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .homeAbout p {
+        /* text-align: left; */
+        font-size: 16px;
+    }
+    
+    .hbLogo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .servicesOverview {
+        padding: 10px 20px;
+    }
+}

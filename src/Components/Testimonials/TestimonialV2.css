@@ -1,0 +1,159 @@
+.testimonial {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 100px;
+  flex-direction: column;
+  background: #1c395f;
+  color: #fff;
+  position: relative;
+}
+
+.googleImg {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.googleImg h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.googleImg img {
+  width: 80%;
+  align-self: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starIcon {
+  font-size: 40px !important;
+  color: goldenrod;
+}
+
+.zillow {
+  color: blue !important;
+}
+
+.testContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.testimonials {
+  width: 100%;
+}
+
+.people-quotes {
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 1px 1px 10px #000000;
+  padding: 15px;
+  height: 170px;
+}
+
+.quote p {
+  color: #212833;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  overflow-y: scroll;
+  height: 80%;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.quote {
+  font-size: 24px !important;
+}
+
+.person-detail h4 {
+  color: #212833;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent; 
+}
+
+.testHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testHeading h2 {
+    color: #fff;
+    /* font-family: 'Open Sans', sans-serif; */
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 42px;
+}
+
+@media (max-width: 1024px) {
+  .googleImg {
+    width: 185px;
+  }
+
+  .starIcon {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    padding: 20px 80px;
+    height: auto;
+  }
+
+  .testContent {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .testimonials {
+    width: 100%;
+  }
+
+  .googleImg h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 426px) {
+  .testimonial {
+    padding: 20px 20px;
+  }
+
+  .googleImg h3 {
+    font-size: 16px;
+  }
+}
